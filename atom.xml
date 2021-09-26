@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ariana��Academia</title>
-  <icon>https://richfan.github.io/project/icon.png</icon>
-  <subtitle>������һ</subtitle>
-  <link href="https://richfan.github.io/project/atom.xml" rel="self"/>
+  <title>ArianaのAcademia</title>
+  <icon>https://richfan.github.io/icon.png</icon>
+  <subtitle>梵我如一</subtitle>
+  <link href="https://richfan.github.io/atom.xml" rel="self"/>
   
-  <link href="https://richfan.github.io/project/"/>
+  <link href="https://richfan.github.io/"/>
   <updated>2021-09-24T07:13:30.807Z</updated>
-  <id>https://richfan.github.io/project/</id>
+  <id>https://richfan.github.io/</id>
   
   <author>
     <name>Ariana</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://richfan.github.io/project/2021/09/24/hello-world/"/>
-    <id>https://richfan.github.io/project/2021/09/24/hello-world/</id>
+    <link href="https://richfan.github.io/2021/09/24/hello-world/"/>
+    <id>https://richfan.github.io/2021/09/24/hello-world/</id>
     <published>2021-09-24T07:13:30.807Z</published>
     <updated>2021-09-24T07:13:30.807Z</updated>
     
