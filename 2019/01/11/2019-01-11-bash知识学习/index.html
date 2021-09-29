@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"richfan.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="为了偷点懒，收集点有关Linux下的bash小知识，用来管理这个静态博客。  用 vi 编辑器编辑一个 hello文件如下：  123#!&#x2F;bin&#x2F;bash # This is a very simple exampleecho Hello World   说明：  第一行的 #! 是什么意思 第一行的 &#x2F;bin&#x2F;bash 又是什么意思 第二行是注释吗  echo 语句 如何执行该程序  #! 是">
+<meta property="og:type" content="article">
+<meta property="og:title" content="学一点bash知识">
+<meta property="og:url" content="https://richfan.github.io/2019/01/11/2019-01-11-bash%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:site_name" content="ArianaのAcademia">
+<meta property="og:description" content="为了偷点懒，收集点有关Linux下的bash小知识，用来管理这个静态博客。  用 vi 编辑器编辑一个 hello文件如下：  123#!&#x2F;bin&#x2F;bash # This is a very simple exampleecho Hello World   说明：  第一行的 #! 是什么意思 第一行的 &#x2F;bin&#x2F;bash 又是什么意思 第二行是注释吗  echo 语句 如何执行该程序  #! 是">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-01-10T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-09-29T02:50:05.161Z">
+<meta property="article:author" content="Ariana">
+<meta property="article:tag" content="bash">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://richfan.github.io/2019/01/11/2019-01-11-bash%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>学一点bash知识 | ArianaのAcademia</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="ArianaのAcademia" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">ArianaのAcademia</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">梵我如一</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/01/11/2019-01-11-bash%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Ariana">
+      <meta itemprop="description" content="大气磅礴，气象万千；梵我如一，法相庄严。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ArianaのAcademia">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          学一点bash知识
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-01-11 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-11T00:00:00+08:00">2019-01-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-09-29 10:50:05" itemprop="dateModified" datetime="2021-09-29T10:50:05+08:00">2021-09-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">电脑技术</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>为了偷点懒，收集点有关Linux下的<br>bash小知识，用来管理这个静态博客。</p>
+<ul>
+<li>用 vi 编辑器编辑一个 hello<br>文件如下：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash </span><br><span class="line"># This is a very simple example</span><br><span class="line">echo Hello World</span><br></pre></td></tr></table></figure>
+
+
+<p>说明：</p>
+<ol>
+<li>第一行的 #! 是什么意思</li>
+<li>第一行的 /bin/bash 又是什么意思</li>
+<li>第二行是注释吗 </li>
+<li>echo 语句</li>
+<li>如何执行该程序</li>
+</ol>
+<p><code>#!</code> 是说明 hello<br>这个文件的类型的，有点类似于<br>Windows<br>系统下用不同文件后缀<br>来表示不同文件类型的意思。Linux<br>系统根据 “#!”<br>及该字串后面的信息确定<br>该文件的类型，可以通过<br>“man magic”命令 及<br>/usr/share/magic<br>文件来了解这方面的更多内容。在<br>BASH 中 第一行的 “#!”<br>及后面的 “/bin/bash”<br>就表明该文件是一个 BASH<br>程序，需要由 /bin 目录下的<br>bash 程序来解释执行。BASH<br>这个程序一般是存放在 /bin<br>目录下，如果你的 Linux<br>系统比较特别，bash<br>也有可能被存放在 /sbin<br>、/usr/local/bin 、/usr/bin<br>、/usr/sbin 或<br>/usr/local/sbin<br>这样的目录下；如果还找不到，<br>你可以用<br>“locate bash” “find / -name<br>bash 2&gt; /dev/null” 或<br>“whereis bash”<br>这三个命令找出 bash<br>所在的位置；如果仍然找不到，<br>那可能需要自己动手安装一个<br>BASH 软件包了。</p>
+<p>第二行的 “# This is a …”<br>就是 BASH 程序的注释，在<br>BASH<br>程序中从“#”号（注意：后面紧接着<br>是“!”号的除外）开始到行尾的所有<br>部分均被看作是程序的注释。</p>
+<p>第三行的 echo 语句的功能是把 echo<br>后面的字符串输出到标准输出中去。<br>由于 echo 后跟的是 “Hello World”<br>这个字符串，因此 “Hello World”这<br>个字串就被显示在控制台终端的屏幕<br>上了。需要注意的是 BASH<br>中的绝大多数语句结尾处都没有分号。</p>
+<p>如何执行该程序呢？有两种方法：</p>
+<p>一种是显式指定 BASH 去执行：</p>
+<ul>
+<li><code>bash hello</code></li>
+<li>或 <code>sh hello</code> （这里 sh<br>是指向 bash 的一个链接）</li>
+</ul>
+<p>或者可以先将 hello<br>文件改为可以执行的文件，<br>然后直接运行它。此时由于<br>hello 文件第一行的 “#! /bin/bash”<br>的作用，系统会自动用/bin/bash<br>程序去解释执行 hello 文件的：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">chmod u+x hello</span><br><span class="line">chmod u+x hello ./hello</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>此处没有直接 “$ hello”是因为<br>当前目录不是当前用户可执行文件<br>的默认目录，而将当前目录“.”设<br>为默认目录是一个不安全的设置。</p>
+<p>需要注意的是，BASH<br>程序被执行后，实际上 Linux<br>系统是另外开设了一个进程来运行的。</p>
+<ul>
+<li>shell脚本中模拟手动输入实现</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">fdisk /dev/mmcblk0 &lt;&lt; XXG</span><br><span class="line">p</span><br><span class="line">d</span><br><span class="line">1</span><br><span class="line">XXG</span><br></pre></td></tr></table></figure>
+
+<p>重定向输入即可，注意前后标号XXG！<br>但这种方法只适用于带输入参数的命<br>令。</p>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.png">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/bash/" rel="tag"># bash</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/01/10/2019-01-10-3L-uno/" rel="prev" title="Disco Linguam Latinam Prīmae">
+      <i class="fa fa-chevron-left"></i> Disco Linguam Latinam Prīmae
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2019/01/12/2019-01-12-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E4%B8%96%E7%95%8C%E6%96%87%E6%98%8E%E5%8F%B2-%E7%90%86%E6%80%A7%E7%9A%84%E6%97%B6%E4%BB%A3/" rel="next" title="世界文明史·理性开始的时代·读书笔记">
+      世界文明史·理性开始的时代·读书笔记 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Ariana"
+      src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">Ariana</p>
+  <div class="site-description" itemprop="description">大气磅礴，气象万千；梵我如一，法相庄严。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">168</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">61</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/richfan" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;richfan" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ariana</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+  
+
+  
+
+</body>
+</html>

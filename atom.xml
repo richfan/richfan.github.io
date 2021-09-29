@@ -6,7 +6,7 @@
   <link href="https://richfan.github.io/atom.xml" rel="self"/>
   
   <link href="https://richfan.github.io/"/>
-  <updated>2021-09-24T07:13:30.807Z</updated>
+  <updated>2021-09-26T07:45:57.600Z</updated>
   <id>https://richfan.github.io/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://richfan.github.io/2021/09/24/hello-world/"/>
-    <id>https://richfan.github.io/2021/09/24/hello-world/</id>
-    <published>2021-09-24T07:13:30.807Z</published>
-    <updated>2021-09-24T07:13:30.807Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>三月桃良·韫玉札记</title>
@@ -49,7 +28,10 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Teens magazine of the age, tells about the problems around us&lt;/span&gt;&lt;span s</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Teens magazine of the age, tells about the problems around us&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;font-size:18pt;font-weight:bold;&quot;&gt;三月桃良·韫玉札记&lt;span style=&quot;display:block;text-align:right;color:orange;font-size:10pt;&quot;&gt;Ariana, Sept. 13, 2021.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一-竞选&quot;&gt;&lt;a href=&quot;#一-竞选&quot; class=&quot;headerlink&quot; title=&quot;一 竞选&quot;&gt;&lt;/a&gt;一 竞选&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;display:block;text-align:left;background:#f5f5f5;&quot;&gt;韫玉刚进入主校区没几天，就赶上了学生会部长竞选。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:left;background:#f5f5f5;&quot;&gt;“刚进校门的时候就吓了一大跳，因为校门前面就有几排学生，高中的学长们吧，在举着牌子振臂高呼。懿美告诉我当时在场的人可以分为两拨，一拨是大吼大叫拉票的，一拨是看着他们懵圈的。实在讲得太对了！”&lt;br&gt;  &lt;span style=&quot;display:block;text-align:right;&quot;  &gt;——选自《采访韫玉》&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span style=&quot;display:block;text-align:left;background:#f5f5e5;&quot;&gt;中午的时候高一高二的学长又开始到初中各楼拉票。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:left;background:#f5f5e5;&quot;&gt;“当时刚吃完午饭，和懿美言君上楼梯，就听到一群人在大喊。我们还以为是发生什么事故了，却看见一群人高举着牌子在走廊上晃荡。我们发现走廊被堵得水泄不通，好多个队伍都进了班级里。有的班直接把窗户和门都锁上了，是二班吧？但那些竞选的人竟然直接在窗外大喊！”&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;&quot;</summary>
         
       
     
@@ -63,27 +45,145 @@
   </entry>
   
   <entry>
+    <title>GitHub使用技巧记录</title>
+    <link href="https://richfan.github.io/2021/09/10/2021-09-23-mytest/"/>
+    <id>https://richfan.github.io/2021/09/10/2021-09-23-mytest/</id>
+    <published>2021-09-09T16:00:00.000Z</published>
+    <updated>2021-09-29T06:50:52.428Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;要想在上传时忽略某些类型的文件,只需在.gitignore文件中增加:&lt;code&gt;*.后缀名&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;使用 git add -u 来只提交所有被删除和修改的文件到数据暂存区&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;之前已经是https的链接，现在想要用SSH提交怎么办？&lt;br&gt;直接修改项目目录下 .git文件夹下的config文件，将地址修改一下就好了。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="电脑技术" scheme="https://richfan.github.io/categories/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="github" scheme="https://richfan.github.io/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Parallel alpha</title>
     <link href="https://richfan.github.io/2021/05/24/2021-05-24/"/>
     <id>https://richfan.github.io/2021/05/24/2021-05-24/</id>
     <published>2021-05-23T16:00:00.000Z</published>
-    <updated>2021-09-26T09:28:23.497Z</updated>
+    <updated>2021-09-29T06:52:08.457Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;fon</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;font-size:18pt;font-weight:bold;&quot;&gt;Parallel α&lt;span style=&quot;display:block;text-align:right;color:orange;font-size:10pt;&quot;&gt;Pluvia Fan, May. 18, 2021.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;$\Huge{C}$atherina hesitated for a second. Who was this woman? Catherina had a feeling that she knew Aarti long ago. Who was she? Aarti came in uninvited and sat down on the kitchen chair. She started pouring the water out of her boots, ‘A long way from the university to here. Just to find you Cate.’&lt;/p&gt;
+&lt;p&gt;Catherina was confused, ‘Who, me? My name is Catherina L’Vesk. I’m not Cate.’ &lt;/p&gt;
+&lt;p&gt;‘Yes you are.’ Aarti answered, taking off her raincoat and overcoat, ‘My full name is Ariana Duncan. My friends just call me Aarti.’ &lt;/p&gt;
+&lt;p&gt;The storm kept on, lightning flashed through the deep azure sky. Thunder rumbled, sounding angry and frustrated. The air was heavy and moist, very unnerving. ‘Can I stay here? It’s far enough to the lab, let alone my home.’Aarti asked excitedly, her green eyes flashing. She pulled down her sweater and put on a clean white bathrobe.&lt;/p&gt;
+&lt;p&gt;‘All right.’ Catherina agreed reluctantly, unable to put down her guard. Aarti went to the shower, humming a tune. Where had I seen Aarti? Her memory was strangely foggy and unclear. She just could not place where she ha</summary>
         
       
     
     
     
-    <category term="原创小说" scheme="https://richfan.github.io/categories/%E5%8E%9F%E5%88%9B%E5%B0%8F%E8%AF%B4/"/>
+    <category term="妞妞原创" scheme="https://richfan.github.io/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/"/>
     
     
     <category term="novel" scheme="https://richfan.github.io/tags/novel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>陈嘉映«走出唯一真理观»摘录</title>
+    <link href="https://richfan.github.io/2021/05/24/2021-05-24-sophia/"/>
+    <id>https://richfan.github.io/2021/05/24/2021-05-24-sophia/</id>
+    <published>2021-05-23T16:00:00.000Z</published>
+    <updated>2021-09-29T06:53:38.312Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;走出唯一真理观&quot;&gt;&lt;a href=&quot;#走出唯一真理观&quot; class=&quot;headerlink&quot; title=&quot;走出唯一真理观&quot;&gt;&lt;/a&gt;走出唯一真理观&lt;/h1&gt;&lt;p&gt;陈嘉映&lt;/p&gt;
+&lt;h2 id=&quot;走出唯一真理观-1&quot;&gt;&lt;a href=&quot;#走出唯一真理观-1&quot; class=&quot;headerlink&quot; title=&quot;走出唯一真理观&quot;&gt;&lt;/a&gt;走出唯一真理观&lt;/h2&gt;&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1966年5月16号被认作是“文化大革命”正式开始的时间&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本来，你是在琢磨怎样能过得幸福，或者怎样让你女儿过上幸福生活。想着想着，你开始琢磨什么才叫幸福生活。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;年轻，没到删繁就简三秋树那种境界，学得越多越好。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当时要是像现在这样，知道天下的学问你就是花一辈子也学不到一星半点，可能就没那么大激情了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我有个想法：天下滔滔，时局动乱，但自己要沉得住气，不能不断兴奋，荒疏了自己的学业。每一场运动都像一场大潮，把很多人卷进来，往往，海潮退去，满地不过一些瓦砾而已。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有不同的道，从前有不同的道，现在有不同的道，将来还有不同的道。重要的问题不是找到唯一的道，而是这些不同的道之间怎样呼应，怎样交流，怎样斗争。你要是坚持说，哲学要的就是唯一&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;但这个格局我个人认为正在扭转当中，由西方主导世界的局面将一去不再复返。这个转折是全方位的，经济的，政治的，文化的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我不是进步论者。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;适应性不一定是好的，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;历史并没有这样的一个终极的目标，历史会沿着意想不到的道路去发展。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;历史的远景我们看不清楚，不必投入太多的情绪。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从那种大的历史观拉回来，拉到一个你比较有把握的认知中，以此来塑造和调节你个人的生活和事业。&lt;/p&gt;
+&lt;/blockquo</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="https://richfan.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="哲学" scheme="https://richfan.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
     
   </entry>
   
@@ -92,20 +192,31 @@
     <link href="https://richfan.github.io/2021/05/18/2021-05-18/"/>
     <id>https://richfan.github.io/2021/05/18/2021-05-18/</id>
     <published>2021-05-17T16:00:00.000Z</published>
-    <updated>2021-09-26T07:57:01.907Z</updated>
+    <updated>2021-09-29T03:39:04.498Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;fon</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;font-size:18pt;font-weight:bold;&quot;&gt;To Ariana&lt;span style=&quot;display:block;text-align:right;color:orange;font-size:10pt;&quot;&gt;Pluvia Fan, May. 12, 2021.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Chapter-1&quot;&gt;&lt;a href=&quot;#Chapter-1&quot; class=&quot;headerlink&quot; title=&quot;Chapter 1&quot;&gt;&lt;/a&gt;Chapter 1&lt;/h2&gt;&lt;p&gt;A extract from Ariana’s email for work:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Respectable Ma’am,&lt;/p&gt;
+&lt;p&gt;I am a PhD graduate from the university of Cambridge, who studies Novel-writing and Novel-reports. I happened to see your advertisement for a writer, on a street pole. I am contacting you now to apply.&lt;/p&gt;
+&lt;p&gt;I believe I am suitable for this job because I have numerous awards in writing reports, novels, essays and etc. I also went to the Young Writers’ Summer Camp and was a counselor. I have experience s working with professional reporters and writers. I was awarded the Young Writers’ Cup three years in a row now.&lt;/p&gt;
+&lt;p&gt;As to my faults, I confess that I have a rather short temper. I do not like to make small talk with people. I am also likely to get nervous before big events or in front of big crowds, so I prefer to stay behind the scenes…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;An extract from Ms. Mel’s reply:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear Miss Ariana,&lt;/p&gt;
+&lt;p&gt;We are impressed by your talent. It would be an honour for us to ha</summary>
         
       
     
     
     
-    <category term="闲谈" scheme="https://richfan.github.io/categories/%E9%97%B2%E8%B0%88/"/>
+    <category term="妞妞原创" scheme="https://richfan.github.io/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/"/>
     
     
     <category term="letter" scheme="https://richfan.github.io/tags/letter/"/>
@@ -124,7 +235,11 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;fon</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;font-size:18pt;font-weight:bold;&quot;&gt;TOMORROW&lt;span style=&quot;display:block;text-align:right;color:orange;font-size:10pt;&quot;&gt;Pluvia Fan, April. 22, 2021.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Tomorrow&quot;&gt;&lt;a href=&quot;#Tomorrow&quot; class=&quot;headerlink&quot; title=&quot;Tomorrow&quot;&gt;&lt;/a&gt;Tomorrow&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://files.mdnice.com/user/5426/49cdd032-0e25-48ce-9896-83079b76d4ca.jpg&quot; alt=&quot;Photo by Melissa Milburn on Unsplash&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Chapter-2-Wedding-Bells-Chime&quot;&gt;&lt;a href=&quot;#Chapter-2-Wedding-Bells-Chime&quot; class=&quot;headerlink&quot; title=&quot;Chapter 2 Wedding Bells Chime&quot;&gt;&lt;/a&gt;Chapter 2 Wedding Bells Chime&lt;/h2&gt;&lt;p&gt;Dusk was coming, with the fading yellowish lights and the sighs of the nymphs near the Dryad Tear, the dear little pond that sits in Aunt Alice’s small garden.&lt;/p&gt;
+&lt;p&gt;The rich aroma of ripe apples and pears, the rocky little path covered with moss, leading to nowhere, even the poplars sighing pitifully in the breeze, seem so majestic and saintly in the golden shower of the last remaining light. &lt;code&gt;‘I think I will name this garden, the Garden of Eden!’ &lt;/code&gt;Little Elizabeth said to herself as she put on the new green dress of hers. She put a few white blossoms in her pale golden hair, which made her seem like a blossom nymph lost in the real world of humans.&lt;/p&gt;
+&lt;p&gt;The maid Ruby w</summary>
         
       
     
@@ -134,6 +249,99 @@
     
     
     <category term="novel" scheme="https://richfan.github.io/tags/novel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>就诊</title>
+    <link href="https://richfan.github.io/2021/05/07/2021-05-07-rec/"/>
+    <id>https://richfan.github.io/2021/05/07/2021-05-07-rec/</id>
+    <published>2021-05-06T16:00:00.000Z</published>
+    <updated>2021-09-29T06:56:47.812Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;晨起日记&quot;&gt;&lt;a href=&quot;#晨起日记&quot; class=&quot;headerlink&quot; title=&quot;晨起日记&quot;&gt;&lt;/a&gt;晨起日记&lt;/h1&gt;&lt;p&gt;今日带妞去省人医，皮肤科医生诊断是玫瑰糠疹，开了开瑞坦和激素药膏，医生说病程两个月。嘱：不要热水烫，太阳晒，护肤品莫用。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="成长记录" scheme="https://richfan.github.io/categories/%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="成长" scheme="https://richfan.github.io/tags/%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>塞涅卡短文摘录</title>
+    <link href="https://richfan.github.io/2021/05/06/2021-05-06-dsbj/"/>
+    <id>https://richfan.github.io/2021/05/06/2021-05-06-dsbj/</id>
+    <published>2021-05-05T16:00:00.000Z</published>
+    <updated>2021-09-29T06:55:37.568Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;论幸福生活&quot;&gt;&lt;a href=&quot;#论幸福生活&quot; class=&quot;headerlink&quot; title=&quot;论幸福生活&quot;&gt;&lt;/a&gt;论幸福生活&lt;/h1&gt;&lt;p&gt;塞涅卡&lt;/p&gt;
+&lt;h2 id=&quot;论天意&quot;&gt;&lt;a href=&quot;#论天意&quot; class=&quot;headerlink&quot; title=&quot;论天意&quot;&gt;&lt;/a&gt;论天意&lt;/h2&gt;&lt;p&gt;Quaesisti a me, Lucili, quid ita, si prouidentia mundus ageretur, multa bonis uiris mala acciderent. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;卢齐利乌斯，你问过我一个问题：如果说这个世界是由天意主宰的，那为什么还会出现好人屡遭不幸的情况呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;est enim omnibus externis potentior. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为它比一切外力都要强大。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Omnia aduersa exercitationes putat. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;种种逆境，在他眼里，都不过是历练而已。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;种种逆境，在他眼里，都不过是历练而已。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;重要的不是你忍受的内容，而是你忍受的方式。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“让他们懂得劳累之苦、病痛之苦、失败之苦，这样他们才能获得真正的力量。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不向任何不幸和灾难低头，即便跌倒了，他也会跪在地上继续战斗。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;值得天主在省思自己的作品时引起注意的场面，是勇者与厄运之间的较量&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在自己的前程已经不止一次遭受重创之后，加依然傲立于共和国的废墟之中。“就算普天之下都落到了一个人手中，”他说，“就算恺撒的军团把守住陆地，舰队把守住海面，就算他的军队封锁住所有的城门，加也有办法脱身：他会只手拓开一条通往自由的大道。这柄在内战中也不曾沾过血污的剑，终于要派上崇高的用场了：它没能给它的国家带来自由，今天它要把这份自由赋予加了！来吧，我的灵魂，完成你早已计划好的任务，让你自己脱离这纷扰的人世，获得自由吧！佩特雷乌斯与尤巴已经浴血奋战，倒在沙场，双双成仁于对方的刀刃之下，与命运签下了一份彰显英雄本色与高尚气节的协定，但这样的死法却不适于表现我自己的伟大：因为对于我加来说，请求别人赐死同请求饶命一样可耻。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最最不幸的人就是从未遭遇过不幸的人。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;疾风方能知劲草，厄运始可识英雄。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个人要想了解自己，不接受考验是不行的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;脖子嫩，才会越觉得枷锁沉；&lt;/p&gt;
+&lt;/b</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="https://richfan.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="哲学" scheme="https://richfan.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
     
   </entry>
   
@@ -149,7 +357,12 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Teens magazine of the age, tells about the problems around us&lt;/span&gt;&lt;span s</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Teens magazine of the age, tells about the problems around us&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;font-size:18pt;font-weight:bold;&quot;&gt;Andy Bunny&lt;span style=&quot;display:block;text-align:right;color:orange;font-size:10pt;&quot;&gt;Pat, Mar. 4, 2021.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-An-Introduction&quot;&gt;&lt;a href=&quot;#1-An-Introduction&quot; class=&quot;headerlink&quot; title=&quot;1. An Introduction&quot;&gt;&lt;/a&gt;1. An Introduction&lt;/h2&gt;&lt;p&gt;Pat is a 12-year-old girl who is going to enter 7th grade. She likes stuffed animals very much.&lt;/p&gt;
+&lt;p&gt;Andy Bunny is the main character of this story. He is a stuffed bunny - as tall as halfway up a desk. Andy is quiet and likes reading very much. He has recently started living with Pat. Pat claims he has a glass heart.&lt;/p&gt;
+&lt;p&gt;There is also a red rose. She has a lot of thorns. The rose is very picky and annoying, but Pat and Andy like her very much.&lt;/p&gt;
+&lt;h2 id=&quot;2-A-bottle-of-stars-for-you&quot;&gt;&lt;a href=&quot;#2-A-bottle-of-stars-for-you&quot; class=&quot;headerlink&quot; title=&quot;2. A bottle of stars - for you&quot;&gt;&lt;/a&gt;2. A bottle of stars - for you&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://imgkr2.cn-bj.ufileos.com/c12fe636-73f1-4709-a08e-f13069996a8c.jpg?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&amp;Signature=yvwzZ6s01aCX1r9uMjGEWOJWizI%253D&amp;Expires=1614912163&quot; alt=&quot;Thanks for Milan Popovic&amp;#39;s image and https://unsplash.com&quot;&gt;&lt;/p&gt;
+&lt;p&gt;When </summary>
         
       
     
@@ -174,7 +387,9 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Western Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:dark</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Western Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;font-size:18pt;font-weight:bold;&quot;&gt;THE SIN&lt;span style=&quot;display:block;text-align:right;color:orange;font-size:10pt;&quot;&gt;Pluvia, Feb. 4, 2021.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgkr2.cn-bj.ufileos.com/ea7f42c9-f228-4c56-b9de-341a65507b5f.jpg?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&amp;Signature=tpEVQFWx%252FJ65T5HslpPWM6b3cbI%253D&amp;Expires=1614308645&quot; alt=&quot;Thanks for Robert Murray&amp;#39;s image and https://unsplash.com&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Chapter-3-quad-A-Woman&quot;&gt;&lt;a href=&quot;#Chapter-3-quad-A-Woman&quot; class=&quot;headerlink&quot; title=&quot;Chapter 3  $\quad$ A Woman&quot;&gt;&lt;/a&gt;Chapter 3</summary>
         
       
     
@@ -199,7 +414,8 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Western Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:dark</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Western Novels&lt;/span&gt;&lt;span style=&quot;display:block;text-align:right;color:darkblue;font-size:18pt;font-weight:bold;&quot;&gt;THE SIN&lt;span style=&quot;display:block;text-align:right;color:orange;font-size:10pt;&quot;&gt;Pluvia, Feb. 4, 2021.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Chapter-1-quad-A-man&quot;&gt;&lt;a href=&quot;#Chapter-1-quad-A-man&quot; class=&quot;headerlink&quot; title=&quot;Chapter 1  $\quad$ A man&quot;&gt;&lt;/a&gt;Chapter 1</summary>
         
       
     
@@ -224,7 +440,20 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-al</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:12pt;color:darkblue;&quot;&gt; Audentes fortuna iuvat. &lt;/span&gt;&lt;br&gt;&lt;img src=&quot;https://imgkr2.cn-bj.ufileos.com/a740b989-3806-4643-9162-9ca087277901.jpg?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&amp;Signature=G%252BBf2e8hFp86Q8KdzfPVdqSIx%252B4%253D&amp;Expires=1607493178&quot;&gt;&lt;/p&gt;
+&lt;svg width=&quot;100%&quot; height=&quot;160&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;margin-top: -180px;&quot;&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;18&quot; y=&quot;24&quot; x=&quot;30%&quot; fill=&quot;#d0e930&quot; font-weight=&quot;bold&quot;&gt;
+Lingua Latina&lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;0.9s&quot; dur=&quot;10s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;20&quot; y=&quot;100&quot; x=&quot;100%&quot; fill=&quot;#00aaaa&quot; font-weight=&quot;bold&quot;&gt;
+Audentes fortuna iuvat. &lt;animate attributename=&quot;x&quot; from=&quot;600&quot; to=&quot;-400&quot; begin=&quot;0s&quot; dur=&quot;7s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;14&quot; y=&quot;120&quot; x=&quot;40%&quot; fill=&quot;#aa88ee&quot; font-weight=&quot;bold&quot;&gt;
+命运女神偏袒有胆量的人。 &lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;1.5s&quot; dur=&quot;1s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;/svg&gt;
+
+&lt;h2 id=&quot;Magician-cat-If-I-was-Mr-Darcy…&quot;&gt;&lt;a href=&quot;#Magician-cat-If-I-was-Mr-Darcy…&quot; class=&quot;headerlink&quot; title=&quot;Magician cat: If I</summary>
         
       
     
@@ -242,23 +471,36 @@
     <link href="https://richfan.github.io/2020/11/19/2020-11-19/"/>
     <id>https://richfan.github.io/2020/11/19/2020-11-19/</id>
     <published>2020-11-18T16:00:00.000Z</published>
-    <updated>2021-09-26T08:06:01.002Z</updated>
+    <updated>2021-09-29T03:36:32.666Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-al</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:12pt;color:darkblue;&quot;&gt; Audentes fortuna iuvat. &lt;/span&gt;&lt;br&gt;&lt;img src=&quot;https://imgkr2.cn-bj.ufileos.com/9d704072-8847-45c0-a7c9-05fbaaa0a702.jpg?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&amp;Signature=m9fheb8EoPNNaCT%252FDpHWNDW2vZA%253D&amp;Expires=1605856688&quot;&gt;&lt;/p&gt;
+&lt;svg width=&quot;100%&quot; height=&quot;210&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;margin-top: -180px;&quot;&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;18&quot; y=&quot;24&quot; x=&quot;30%&quot; fill=&quot;#d0e930&quot; font-weight=&quot;bold&quot;&gt;
+Lingua Latina&lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;0.9s&quot; dur=&quot;10s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;20&quot; y=&quot;100&quot; x=&quot;100%&quot; fill=&quot;#00aaaa&quot; font-weight=&quot;bold&quot;&gt;
+Audentes fortuna iuvat. &lt;animate attributename=&quot;x&quot; from=&quot;600&quot; to=&quot;-400&quot; begin=&quot;0s&quot; dur=&quot;7s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;14&quot; y=&quot;120&quot; x=&quot;40%&quot; fill=&quot;#aa88ee&quot; font-weight=&quot;bold&quot;&gt;
+命运女神偏袒有胆量的人。 &lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;1.5s&quot; dur=&quot;1s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;/svg&gt;
+
+&lt;h2 id=&quot;Magician-cat-topic-of-today-Embarrassment&quot;&gt;&lt;a href=&quot;#Magician-cat-topic-of-today-Embarrassment&quot; class=&quot;headerlink&quot; title=&quot;Ma</summary>
         
       
     
     
     
-    <category term="闲谈" scheme="https://richfan.github.io/categories/%E9%97%B2%E8%B0%88/"/>
+    <category term="妞妞原创" scheme="https://richfan.github.io/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/"/>
     
     
-    <category term="chat" scheme="https://richfan.github.io/tags/chat/"/>
+    <category term="英文习作" scheme="https://richfan.github.io/tags/%E8%8B%B1%E6%96%87%E4%B9%A0%E4%BD%9C/"/>
     
   </entry>
   
@@ -267,20 +509,34 @@
     <link href="https://richfan.github.io/2020/11/18/2020-11-18/"/>
     <id>https://richfan.github.io/2020/11/18/2020-11-18/</id>
     <published>2020-11-17T16:00:00.000Z</published>
-    <updated>2021-09-26T08:07:17.323Z</updated>
+    <updated>2021-09-29T03:36:52.493Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-al</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:12pt;color:darkblue;&quot;&gt; Audentes fortuna iuvat. &lt;/span&gt;&lt;/p&gt;
+&lt;svg width=&quot;100%&quot; height=&quot;210&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;margin-top: -195px;&quot;&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;18&quot; y=&quot;24&quot; x=&quot;30%&quot; fill=&quot;#d0e930&quot; font-weight=&quot;bold&quot;&gt;
+Lingua Latina&lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;0.9s&quot; dur=&quot;10s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;20&quot; y=&quot;100&quot; x=&quot;100%&quot; fill=&quot;#00aaaa&quot; font-weight=&quot;bold&quot;&gt;
+Audentes fortuna iuvat. &lt;animate attributename=&quot;x&quot; from=&quot;600&quot; to=&quot;-400&quot; begin=&quot;0s&quot; dur=&quot;7s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;14&quot; y=&quot;120&quot; x=&quot;40%&quot; fill=&quot;#ccbfd0&quot; font-weight=&quot;bold&quot;&gt;
+命运女神偏袒有胆量的人。 &lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;1.5s&quot; dur=&quot;1s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;/svg&gt;
+
+&lt;h1 id=&quot;Magician-cat-My-faults&quot;&gt;&lt;a href=&quot;#Magician-cat-My-faults&quot; class=&quot;headerlink&quot; title=&quot;Magician cat: My faults&quot;&gt;&lt;/a&gt;Magician cat: My faults&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;display:block; text-align:right;color:darkblue;&quot;&gt;Written by Magiciancat.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Hello, fellow e-fans! Do you know your own faults? Well, today I am going to share the stor</summary>
         
       
     
     
     
-    <category term="闲谈" scheme="https://richfan.github.io/categories/%E9%97%B2%E8%B0%88/"/>
+    <category term="妞妞原创" scheme="https://richfan.github.io/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/"/>
     
     
     <category term="thinking" scheme="https://richfan.github.io/tags/thinking/"/>
@@ -292,23 +548,37 @@
     <link href="https://richfan.github.io/2020/11/16/2020-11-16/"/>
     <id>https://richfan.github.io/2020/11/16/2020-11-16/</id>
     <published>2020-11-15T16:00:00.000Z</published>
-    <updated>2021-09-26T07:38:18.953Z</updated>
+    <updated>2021-09-29T03:38:38.540Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-al</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:12pt;color:darkblue;&quot;&gt; Non sum ego qui fueram. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgkr2.cn-bj.ufileos.com/2758f8ae-cea5-4f0c-b026-f1c22cd97b46.jpg?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&amp;Signature=pOC0hCtTD0EOXWsDqIU4JypbMT0%253D&amp;Expires=1605600983&quot;&gt;&lt;/p&gt;
+&lt;svg width=&quot;100%&quot; height=&quot;210&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;margin-top: -195px;&quot;&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;18&quot; y=&quot;24&quot; x=&quot;26%&quot; fill=&quot;#d0e930&quot; font-weight=&quot;bold&quot;&gt;
+Lingua Latina&lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;0.9s&quot; dur=&quot;10s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;20&quot; y=&quot;95&quot; x=&quot;100%&quot; fill=&quot;#00aaaa&quot; font-weight=&quot;bold&quot;&gt;
+Non sum ego qui fueram. &lt;animate attributename=&quot;x&quot; from=&quot;800&quot; to=&quot;-400&quot; begin=&quot;0s&quot; dur=&quot;7s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;14&quot; y=&quot;160&quot; x=&quot;65%&quot; fill=&quot;#99ff00&quot; font-weight=&quot;bold&quot;&gt;
+今我非故我。 &lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;1.5s&quot; dur=&quot;1s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;/svg&gt;
+
+&lt;h1 id=&quot;Magician-Cat-Pride-in-Society-Research&quot;&gt;&lt;a href=&quot;#Magician-Cat-Pride-in-Society-Research&quot; class=&quot;headerlink&quot; title=&quot;Magician Cat: P</summary>
         
       
     
     
     
-    <category term="闲谈" scheme="https://richfan.github.io/categories/%E9%97%B2%E8%B0%88/"/>
+    <category term="妞妞原创" scheme="https://richfan.github.io/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/"/>
     
     
-    <category term="chat" scheme="https://richfan.github.io/tags/chat/"/>
+    <category term="闲谈" scheme="https://richfan.github.io/tags/%E9%97%B2%E8%B0%88/"/>
     
   </entry>
   
@@ -324,7 +594,21 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-al</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:12pt;color:darkblue;&quot;&gt; Non sum ego qui fueram. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgkr2.cn-bj.ufileos.com/f754e94f-7bcb-4823-ba99-a78cdb61af79.jpg?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&amp;Signature=B%252BRbmiJKF25nhsj6gkruX7XZh7I%253D&amp;Expires=1602384280&quot;&gt;&lt;/p&gt;
+&lt;svg width=&quot;100%&quot; height=&quot;210&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;margin-top: -195px;&quot;&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;18&quot; y=&quot;24&quot; x=&quot;26%&quot; fill=&quot;#d0e930&quot; font-weight=&quot;bold&quot;&gt;
+Lingua Latina&lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;0.9s&quot; dur=&quot;10s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;20&quot; y=&quot;95&quot; x=&quot;100%&quot; fill=&quot;#00aaaa&quot; font-weight=&quot;bold&quot;&gt;
+Non sum ego qui fueram. &lt;animate attributename=&quot;x&quot; from=&quot;800&quot; to=&quot;-400&quot; begin=&quot;0s&quot; dur=&quot;7s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;14&quot; y=&quot;160&quot; x=&quot;65%&quot; fill=&quot;#99ff00&quot; font-weight=&quot;bold&quot;&gt;
+今我非故我。 &lt;animate attributename=&quot;opacity&quot; from=&quot;1&quot; to=&quot;0&quot; begin=&quot;1.5s&quot; dur=&quot;1s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;
+&lt;/text&gt;
+&lt;/svg&gt;
+
+&lt;h1 id=&quot;Magician-cat-blurbs-Jane-Eyre-Fahrenheit-451-1984&quot;&gt;&lt;a href=&quot;#Magician-cat-blurbs-Jane-Eyre-Fahrenheit-451-1984&quot; class=&quot;headerli</summary>
         
       
     
@@ -349,7 +633,10 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-al</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:12pt;color:darkblue;&quot;&gt; Inter nos laetemur amantes. &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:justify;font-size:12pt;color:darkblue;opacity:0.9;border:2px dotted red;padding:10px;border-radius:10px;text-shadow: 5px 5px 5px #FF0000;box-shadow: 10px 10px 5px #888888;background-image: linear-gradient(to right, red , yellow);&quot;&gt;We, co-workers of the website of “&lt;a href=&quot;https://www.magiciancatbook.com&amp;quot;/&quot;&gt;https://www.magiciancatbook.com&amp;quot;&lt;/a&gt; have invited fans of ours to share their reading experience with our fellow fans.&lt;/span&gt;&lt;br&gt;&lt;svg width=&quot;100%&quot; height=&quot;25&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;br&gt;&lt;g&gt;&lt;br&gt;&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;16&quot; y=&quot;16&quot; x=&quot;100%&quot; fill=&quot;#898989&quot;&gt;&lt;br&gt;Magician Cat (｡•́‿•̀｡)&lt;br&gt;&lt;animate attributename=&quot;x&quot; from=&quot;100%&quot; to=&quot;-200&quot; begin=&quot;0s&quot; dur=&quot;5s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;&lt;br&gt;&lt;/text&gt;&lt;br&gt;&lt;/g&gt;&lt;br&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgkr2.cn-bj.ufileos.com/bb04201d-7e6b-43ed-a204-cf846006161a.jpg?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&amp;Signature=SYveeXYMAoLeNmeSDuWeEs%252FJIYo%253D&amp;Expires=1602316846&quot; alt=&quot;Cloud in Nanjing&quot;&gt;&lt;/p&gt;
+&lt;svg width=&quot;100%&quot; height=&quot;250&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;margin-top: -195px;&quot;&gt;
+&lt;text font-family=&quot;</summary>
         
       
     
@@ -367,20 +654,24 @@
     <link href="https://richfan.github.io/2020/09/23/2020-09-23/"/>
     <id>https://richfan.github.io/2020/09/23/2020-09-23/</id>
     <published>2020-09-22T16:00:00.000Z</published>
-    <updated>2021-09-26T07:20:40.744Z</updated>
+    <updated>2021-09-29T06:57:43.255Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-al</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;MagicianCat’s Advice from Roma&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:12pt;color:darkblue;&quot;&gt; Turbam vita! &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Prologue-learning&quot;&gt;&lt;a href=&quot;#Prologue-learning&quot; class=&quot;headerlink&quot; title=&quot;Prologue learning&quot;&gt;&lt;/a&gt;Prologue learning&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;display:block;text-align:justify;font-size:12pt;color:darkblue;opacity:0.9;border:2px dotted red;padding:10px;border-radius:15px;text-shadow: 5px 5px 5px #FF0000;box-shadow: 10px 10px 5px #888888;background-image: linear-gradient(to right, red , yellow);&quot;&gt;We, co-workers of the website of “https:///&lt;a href=&quot;http://www.magiciancatbook.com&amp;quot;/&quot;&gt;www.magiciancatbook.com&amp;quot;&lt;/a&gt; have invited fans of ours to share their reading experience with our fellow fans.&lt;/span&gt;&lt;br&gt;&lt;svg width=&quot;100%&quot; height=&quot;25&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;br&gt;&lt;g&gt;&lt;br&gt;&lt;text font-family=&quot;microsoft yahei,sans-serif&quot; font-size=&quot;20&quot; y=&quot;20&quot; x=&quot;100%&quot; fill=&quot;#898989&quot;&gt;&lt;br&gt;Magician Cat (｡•́‿•̀｡)&lt;br&gt;&lt;animate attributename=&quot;x&quot; from=&quot;100%&quot; to=&quot;-200&quot; begin=&quot;0s&quot; dur=&quot;3s&quot; repeatcount=&quot;indefinite&quot;&gt;&lt;/animate&gt;&lt;br&gt;&lt;/text&gt;&lt;br&gt;&lt;/g&gt;&lt;br&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;img src=&quot;http://mmbiz.qpic.cn/mmbiz/9x9BHGwhNttorNw4jDA3EqstTv50RQZSUic0mHk1fNYlHYSsMA4h1DuLwYwia4d3u27Thhpx4EyyAr5mK4QFX1DA/0?wx_fmt=gif&quot;/&gt;
+&lt;svg width=&quot;100%&quot; height=&quot;200&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;margin-top: -160px;&quot;&gt;
+&lt;t</summary>
         
       
     
     
     
-    <category term="novel" scheme="https://richfan.github.io/categories/novel/"/>
+    <category term="妞妞原创" scheme="https://richfan.github.io/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/"/>
     
     
     <category term="novel" scheme="https://richfan.github.io/tags/novel/"/>
@@ -399,7 +690,9 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;Magician Cat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-siz</summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;Magician Cat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:14pt;color:darkblue;&quot;&gt; Chat Room &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Fahrenheit-451&quot;&gt;&lt;a href=&quot;#Fahrenheit-451&quot; class=&quot;headerlink&quot; title=&quot;Fahrenheit 451&quot;&gt;&lt;/a&gt;Fahrenheit 451&lt;/h1&gt;&lt;p&gt;We, co-workers of the website of “https:///&lt;a href=&quot;http://www.magiciancatbook.com&amp;quot;/&quot;&gt;www.magiciancatbook.com&amp;quot;&lt;/a&gt; have invited fans of ours to share their reading experience with our fellow fans.&lt;/p&gt;
+&lt;h2 id=&quot;Judy&quot;&gt;&lt;a href=&quot;#Judy&quot; class=&quot;headerlink&quot; title=&quot;Judy:&quot;&gt;&lt;/a&gt;Judy:&lt;/h2&gt;&lt;p&gt;I read the book because my kid was learning this novel in school. One day I peeked at my son’s notebook and found a report for F451. I was intrigued by the idea that a person who lived many decades ago could have predicted the state of our lives today. So, I bought the book and started reading. I was horrified by the idea  that people could lose their  memories if they watched too many instant entertainment shows. This novel taught me a lot memories if they watched too many instant entertainment shows. This novel taught me a lot&lt;br&gt; about life. Now, I seldom watch television and always read books instead of looking at my iPhone. I have also started a book club called ‘Deciding the Future’, and there are already</summary>
         
       
     
@@ -424,82 +717,12 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;Magician Cat Front Page &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:ri</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="https://richfan.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="reading" scheme="https://richfan.github.io/tags/reading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Don&#39;t like it, then do not watch it!</title>
-    <link href="https://richfan.github.io/2020/07/31/2020-07-31/"/>
-    <id>https://richfan.github.io/2020/07/31/2020-07-31/</id>
-    <published>2020-07-30T16:00:00.000Z</published>
-    <updated>2021-09-26T07:11:44.386Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;Magician cat in life-talking personal&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;</summary>
-        
-      
-    
-    
-    
-    <category term="闲谈" scheme="https://richfan.github.io/categories/%E9%97%B2%E8%B0%88/"/>
-    
-    
-    <category term="talking" scheme="https://richfan.github.io/tags/talking/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Jane Eyra &amp;&amp; Fahrenheit 451</title>
-    <link href="https://richfan.github.io/2020/07/08/2020-07-08/"/>
-    <id>https://richfan.github.io/2020/07/08/2020-07-08/</id>
-    <published>2020-07-07T16:00:00.000Z</published>
-    <updated>2021-09-26T07:06:33.488Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:lightblue;&quot;&gt;Teens magazine of the age, tells about the problems around us&lt;/span&gt;&lt;span s</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="https://richfan.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="reading" scheme="https://richfan.github.io/tags/reading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Jane Eyre</title>
-    <link href="https://richfan.github.io/2020/07/06/2020-07-06/"/>
-    <id>https://richfan.github.io/2020/07/06/2020-07-06/</id>
-    <published>2020-07-05T16:00:00.000Z</published>
-    <updated>2021-09-26T06:55:21.140Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Jane-Eyre&quot;&gt;&lt;a href=&quot;#Jane-Eyre&quot; class=&quot;headerlink&quot; title=&quot;Jane Eyre&quot;&gt;&lt;/a&gt;Jane Eyre&lt;/h2&gt;&lt;p&gt;Jane Eyre had a significant effect on the </summary>
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;Magician Cat Front Page &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-size:16pt;color:darkblue;&quot;&gt;NEWS&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Fahrenheit-451&quot;&gt;&lt;a href=&quot;#Fahrenheit-451&quot; class=&quot;headerlink&quot; title=&quot;Fahrenheit 451&quot;&gt;&lt;/a&gt;Fahrenheit 451&lt;/h1&gt;&lt;h2 id=&quot;QUESTION&quot;&gt;&lt;a href=&quot;#QUESTION&quot; class=&quot;headerlink&quot; title=&quot;QUESTION&quot;&gt;&lt;/a&gt;QUESTION&lt;/h2&gt;&lt;p&gt;This novel is about a dystopian society in the future. Guy Montag, a fireman, was directed by the government to burn books. One day he met a girl named Clarisse, who gave him new thoughts about life. He then ventures to life beyond &lt;em&gt;‘the family’&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We recommend this interesting novel for you to read. As you follow Montag in his wonderous tracks, you will learn new things which are, and will be, important in your own life. Please type in ‘Fahrenheit 451’ or ‘Montag’ in the search engine at &lt;a href=&quot;http://www.magiciancat.com/&quot;&gt;http://www.magiciancat.com&lt;/a&gt; for more information about this topic.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;font-size:12pt;color:darkblue;&quot;&gt;&lt;strong&gt;Read more&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;READERS&quot;&gt;&lt;a href=&quot;#READERS&quot; class=&quot;headerlink&quot; title=&quot;READERS&quot;&gt;&lt;/a&gt;READERS&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;display:block;text-align:left;font-size:12pt;color:darkgreen;&quot;&gt;Aimee: wow, I really love these small reports :)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;display:block;text-al</summary>
         
       
     
