@@ -1219,7 +1219,7 @@ G-->g0(即墨大夫与阿大夫);</pre>
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/10/10/2019-10-10-slmath1/">
+    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/10/10/2019-10-10-slmath/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -1233,7 +1233,7 @@ G-->g0(即墨大夫与阿大夫);</pre>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/10/2019-10-10-slmath1/" class="post-title-link" itemprop="url">通原算法</a>
+            <a href="/2019/10/10/2019-10-10-slmath/" class="post-title-link" itemprop="url">数论导引之读书笔记20191010</a>
         </h2>
 
         <div class="post-meta">
@@ -1250,7 +1250,7 @@ G-->g0(即墨大夫与阿大夫);</pre>
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-29 13:26:58" itemprop="dateModified" datetime="2021-09-29T13:26:58+08:00">2021-09-29</time>
+                <time title="修改时间：2021-09-29 13:28:31" itemprop="dateModified" datetime="2021-09-29T13:28:31+08:00">2021-09-29</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1273,10 +1273,12 @@ G-->g0(即墨大夫与阿大夫);</pre>
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>今有散钱不知其数，作七十七陌穿之，欠五十凑穿，若作七十八陌穿之，不多不少。问钱数若干？</p>
-<p>解：</p>
-<p>$$\because x\equiv27(mod77), x\equiv0(mod78),\ \therefore x\equiv27\times78(mod77\times78)$$</p>
-<p><img src="/media/IMG_2019.jpg" alt="图片"></p>
+          <h2 id="逐步淘汰原则"><a href="#逐步淘汰原则" class="headerlink" title="逐步淘汰原则"></a>逐步淘汰原则</h2><p><strong>定理7.1</strong><br>设有N件事物，其中$$N_{\alpha}$$件有性质$$\alpha$$，$$N_{\beta}$$件有性质$$\beta,\cdots,N_{\alpha\beta}$$件兼有性质$$\alpha\mbox{及}\beta,\cdots,N_{\alpha\beta\gamma}$$件兼有性质$$\alpha,\beta\mbox{及}\gamma,\cdots$$，则此事物中之既无性质$$\alpha$$，又无性质$$\beta$$，又无性质$$\gamma,\cdots$$者之件数为</p>
+<p>$$\begin{align}N-N_{\alpha}-N_{\beta}-\cdots\<br>+N_{\alpha\beta}+\cdots\<br>-N_{\alpha\beta\gamma}-\cdots\<br>+\cdots-\cdots\end{align}$$</p>
+<p><strong>定理7.2</strong><br>若$$a,b,\cdots,k,l$$为任意非负之数，则</p>
+<p>$$max(a,b,\cdots,k,l)=a+b+\cdots+k+l\<br>-min(a,b)\cdots-min(k,l)\<br>+min(a,b,c)+\cdots\<br>-\cdots+\cdots\<br>\pm min(a,b,\cdots,k,l)$$</p>
+<p><strong>定理7.3</strong><br>$$[a_1,\cdots,a_n]=a_1\cdots a_n(a_1,a_2)^{-1}\cdots(a_{n-1},a_n)^{-1}(a_1,a_2,a_3)\cdots(a_1,\cdots,a_n)^{(-1)^{n+1}}$$</p>
+<p><strong>定理7.4</strong><br>$$(a_1,a_2,\cdots,a_n)=a_1\cdots a_n[a_1,a_2]^{-1}\cdots[a_{n-1}a_n]^{-1}[a_1,a_2,a_3]\cdots[a_1,\cdots,a_n]^{(-1)^{n+1}}$$</p>
 
       
     </div>

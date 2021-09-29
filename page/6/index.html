@@ -164,7 +164,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/07/06/2019-07-06-card/">
+    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/07/06/2019-07-06-the-wind/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -178,7 +178,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2019/07/06/2019-07-06-card/" class="post-title-link" itemprop="url">卡片写作格式</a>
+            <a href="/2019/07/06/2019-07-06-the-wind/" class="post-title-link" itemprop="url">THE WIND IN THE WILLOWS</a>
         </h2>
 
         <div class="post-meta">
@@ -195,7 +195,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-29 14:30:44" itemprop="dateModified" datetime="2021-09-29T14:30:44+08:00">2021-09-29</time>
+                <time title="修改时间：2021-09-29 14:29:45" itemprop="dateModified" datetime="2021-09-29T14:29:45+08:00">2021-09-29</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -203,7 +203,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">读书笔记</span></a>
+                  <a href="/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/" itemprop="url" rel="index"><span itemprop="name">妞妞原创</span></a>
                 </span>
             </span>
 
@@ -218,12 +218,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>建立卡片笔记可以采用下面的方式</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">date: 这里填写卡片的建立时间</span><br><span class="line">title: 这里填写卡片的标题</span><br><span class="line">---</span><br><span class="line"># 内容</span><br><span class="line">这里填写卡片的内容</span><br><span class="line"></span><br><span class="line"># 相关链接</span><br><span class="line">填写书名、作者名，如果有的话</span><br><span class="line">填写相关的其他信息</span><br><span class="line"></span><br><span class="line"># Changelog</span><br><span class="line">更新日志，可以不写</span><br></pre></td></tr></table></figure>
-
-
-
-
+          <h2 id="Badger"><a href="#Badger" class="headerlink" title="Badger"></a>Badger</h2><p>In the book, Badger is the oldest und wisest of all. He is hospitable and kind. When Mole nnd Rat were lost in the Wild Wood, Badger let them into his cozy house and gave them food,<br>shelter.</p>
+<h2 id="Rat"><a href="#Rat" class="headerlink" title="Rat"></a>Rat</h2><p>Rat is just a bit younger from Badger. He can survive himself and is kind, sensible, and understanding.<br>He always likes to help when friends have trouble. When Portly was lost in the woods. But he also has enthusiasm for a young person and likes to fight.</p>
+<h2 id="Mole"><a href="#Mole" class="headerlink" title="Mole"></a>Mole</h2><p>Mole is trying to be mature but also has an excitable instinct of the young. He can make some simple decisions by himself, but he need help for others. For instance when he was in the Wild Wood. Rat must go and save him.</p>
+<h2 id="Toad"><a href="#Toad" class="headerlink" title="Toad"></a>Toad</h2><p>In this book , Toad is more like a spoilt, foolish child.  He gets in conflict with<br>everybody he met , like his friends, the<br>barge woman , the motor car owners,<br>people who want to help him etc.<br>But, in the end, he leaned to be more mature.</p>
 
       
     </div>
@@ -1209,61 +1207,6 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
-      
-
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-          load: ['[tex]/mhchem'],
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-          packages: {'[+]': ['mhchem']},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
-
-    
 
   
 
