@@ -6,7 +6,7 @@
   <link href="https://richfan.github.io/atom.xml" rel="self"/>
   
   <link href="https://richfan.github.io/"/>
-  <updated>2021-09-26T07:45:57.600Z</updated>
+  <updated>2021-10-15T02:17:25.282Z</updated>
   <id>https://richfan.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>错题集锦（一）</title>
+    <link href="https://richfan.github.io/2021/10/15/2021-10-15-math1/"/>
+    <id>https://richfan.github.io/2021/10/15/2021-10-15-math1/</id>
+    <published>2021-10-14T16:00:00.000Z</published>
+    <updated>2021-10-15T02:17:25.282Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第一讲-有理数的基本认识"><a href="#第一讲-有理数的基本认识" class="headerlink" title="第一讲 有理数的基本认识"></a>第一讲 有理数的基本认识</h1><ol start="17"><li>已知数轴上有A和B两点， A、B之间的距离为2，点A与原点O的距离为4，那么所有满足条件的点B与原点O的距离之和等于多少？</li></ol><h1 id="第二讲-绝对值与相反数"><a href="#第二讲-绝对值与相反数" class="headerlink" title="第二讲 绝对值与相反数"></a>第二讲 绝对值与相反数</h1><ol start="13"><li>一般地，数轴上表示数m和数n的两点之间的距离等于$|{m-n}|$，如：数轴上表示3.5和1.5的两点之间的距离是$|3.5-1.5|=2$；表示$-4$和$1$两点之间的距离是$|-4-1|=5$，根据以上材料，结合数轴与绝对值的知识回答下列问题：<br>（1）如果表述数$|a|$和$-1.5$的两点之间的距离是3，那么$a=\underline{  \qquad\qquad\qquad }$<br>（2）当$a\underline{\qquad\qquad\qquad}$时，$|a=3|+|a-5|$的值最小，最小值是$\underline{\qquad\qquad\qquad}$<br>当$a\underline{\qquad\qquad\qquad}$时，$|a+3|+|a-5|+|a-6|$的值最小，最小值是$\underline{\qquad\qquad\qquad}$ （3）依照上述方法，$|a+6|+|a-2|+|a-4|+|a+4|$的最小值是$\underline{\qquad\qquad\qquad}$<br /></li></ol><h1 id=""><a href="#" class="headerlink" title=""></a></h1><h1 id="第三讲-有理数的混合运算"><a href="#第三讲-有理数的混合运算" class="headerlink" title="第三讲 有理数的混合运算"></a>第三讲 有理数的混合运算</h1><ol><li>下列说法中，正确的在题后打“√”，错误的在题后打“×”<br>（4）较小的有理数减去较大的有理数的差一定是负数。（      ）</li><li>若$|x-y+3|$与$|x+y-2020 |$互为相反数，则$\frac{x+2y}{x-y}$的值是$\underline{\qquad\qquad\qquad}$</li><li>若$a&lt;0，ab&lt;0$，那么$|b-a+1|-|a-b-5|$等于$\underline{\qquad\qquad\qquad}$</li><li>拒绝“餐桌浪费”刻不容缓，据统计全国每年浪费食物总量约为50000000000千克，这个数据用科学计数法表示为$\underline{\qquad\qquad\qquad}$。</li><li>若$a$与$2b$互为倒数，$-c$与$\frac{d}{2}$互为相反数，$x$的绝对值等于3，求代数式$2ab-2c+d+\Large\frac{x}{3}$的值。</li><li>直接写出答案：<br>（12） $(-99)\times999=$</li><li>计算：<br>（3） $-3^2-(-3)^3+(-2)^2-2^3$</li></ol><h1 id="第四讲-代数式"><a href="#第四讲-代数式" class="headerlink" title="第四讲 代数式"></a>第四讲 代数式</h1><ol start="4"><li>两堆棋子，将第一堆的3个棋子移动到第二堆去之后，第二堆的棋子数就成为第一堆棋子的3倍，设第一堆原有$P$个棋子，第二堆原有的棋子为$\underline{\qquad\qquad\qquad}$个。</li><li>（1）$-a^2bc^3$的系数是$\underline{\qquad\qquad}$；次数是$\underline{\qquad\qquad}$;<br>（2）$-\Large\frac{2\pi xyz^2}{5}$的系数是$\underline{\qquad\qquad}$；次数是$\underline{\qquad\qquad}$;</li><li>多项式$3x^2yz+2-4x^2y^5+5xy^3$的项数是$\underline{\qquad\qquad}$，次数是$\underline{\qquad\qquad}$；</li><li>多项式$8ab^4-\frac{2}{7}a^2b^2+a^2bc^3-\pi-ab$的常数项是$\underline{\qquad\qquad}$，四次项系数是$\underline{\qquad\qquad}$</li><li>当$k=\underline{\qquad\qquad}$时，多项式$2x^2-7kxy+7xy+3y^2+5y$中不含$xy$项。</li><li>求值$5ab-7a^2b^2-8ab+5a^2b^2-ab$，其中$a=\frac{1}{2},b=-2$。</li></ol><h1 id="第五讲-整式的加减"><a href="#第五讲-整式的加减" class="headerlink" title="第五讲 整式的加减"></a>第五讲 整式的加减</h1><p>例9. 化简：$3x^3-[5x^2+3(x^3+\frac{2}{3}x^2-\frac{1}{3})+4]+3$</p><ol start="12"><li>若多项式$2x^2+ax-y+6-2(bx^2+3x-5y)-1$的值与$x$的取值无关，求$\frac{1}{3}a^3-2ab-\frac{1}{4}a^3+3ab^2$的值</li><li>已知：$m,x,y$满足：$(1)\frac{2}{3}(x-5)^2+5|m|=0$；$(2)-2a^2b^{y+1}$与$7b^3a^2$是同类项。<br>求代数式：$2x^2-6y^2+m(xy-9y^2)-(3x^2-3xy+7y^2)$的值。</li></ol><h1 id="第六讲-综合复习"><a href="#第六讲-综合复习" class="headerlink" title="第六讲 综合复习"></a>第六讲 综合复习</h1><ol><li>已知$|a|=5，|b|=3，$且$|a-b|&gt;a-b$，则$a+b$的值为$\underline{\qquad\qquad}$</li><li>已知一个三位数，十位上的数为a，十位上的数比个位上的数的$\frac{1}{4}$多1，百位上的数是十位上的数的二倍，用含$a$的代数式表示这个三位数是$\underline{\qquad\qquad\qquad\qquad}$。</li><li>三个有理数$a,b,c$满足$abc&lt;0，a+b+c&gt;0$，当$x=\frac{|a|}{a}+\frac{|b|}{b}+\frac{|c|}{c}$时，求代数式$x^{19}-92x+2$的值。</li><li>A和B两家公司都准备向社会招聘人才，两家公司招聘条件基本相同，只有工资待遇有如下差异：A公司，年薪10万元，每年加工龄工资2000元；B公司，半年薪五万元，每半年加工龄工资500元，从收入的角度考虑，选择哪家公司有利？</li><li>计算<br> （4） $-17+17\div(-1)^{11}-5^2\times(-0.2)^3$<br> 解：原式=</li></ol><h1 id="附录（计算篇）"><a href="#附录（计算篇）" class="headerlink" title="附录（计算篇）"></a>附录（计算篇）</h1><ol><li>混合计算<br>（3） $-27\div\frac{9}{4}\times(-\frac{4}{9})+4-4\times(-\frac{1}{3})$<br>解：原式=</li></ol><p>例11. 阅读理解：给定次序的$n$个数$a_1，a_2，\ldots，a_n$，记$S_k=a_1+a_2+\ldots+a_k$，为前$k$个数的和$(1\le k\le n)$，定义$A=(S_1+S_2+\ldots+S_n)\div n$称它们的“凯森和”，如$a_1=2， a_2=3， a_3=3，S_1=2，S_2+5，S_3=8，$凯森和$A=(2+5+8)\div 3=5$，若有99个数$a_1，a_2，\ldots，a_{99}$的凯森和为100，则添上21后的100个数$21， a_1，a_2，\ldots ,a_{99}$的凯森和是$\underline{\qquad\qquad\qquad}$。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第一讲-有理数的基本认识&quot;&gt;&lt;a href=&quot;#第一讲-有理数的基本认识&quot; class=&quot;headerlink&quot; title=&quot;第一讲 有理数的基本认识&quot;&gt;&lt;/a&gt;第一讲 有理数的基本认识&lt;/h1&gt;&lt;ol start=&quot;17&quot;&gt;
+&lt;li&gt;已知数轴上有A和B两点， </summary>
+        
+      
+    
+    
+    
+    <category term="数学探究" scheme="https://richfan.github.io/categories/%E6%95%B0%E5%AD%A6%E6%8E%A2%E7%A9%B6/"/>
+    
+    
+    <category term="数学学习" scheme="https://richfan.github.io/tags/%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>三月桃良·韫玉札记</title>
@@ -74,6 +102,34 @@
   </entry>
   
   <entry>
+    <title>陈嘉映«走出唯一真理观»摘录</title>
+    <link href="https://richfan.github.io/2021/05/24/2021-05-24-sophia/"/>
+    <id>https://richfan.github.io/2021/05/24/2021-05-24-sophia/</id>
+    <published>2021-05-23T16:00:00.000Z</published>
+    <updated>2021-10-15T01:49:30.287Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="《走出唯一真理观》"><a href="#《走出唯一真理观》" class="headerlink" title="《走出唯一真理观》"></a>《走出唯一真理观》</h1><p>陈嘉映</p><h2 id="走出唯一真理观"><a href="#走出唯一真理观" class="headerlink" title="走出唯一真理观"></a>走出唯一真理观</h2><blockquote><blockquote><p>1966年5月16号被认作是“文化大革命”正式开始的时间</p></blockquote></blockquote><blockquote><blockquote><p>本来，你是在琢磨怎样能过得幸福，或者怎样让你女儿过上幸福生活。想着想着，你开始琢磨什么才叫幸福生活。</p></blockquote></blockquote><blockquote><blockquote><p>年轻，没到删繁就简三秋树那种境界，学得越多越好。</p></blockquote></blockquote><blockquote><blockquote><p>当时要是像现在这样，知道天下的学问你就是花一辈子也学不到一星半点，可能就没那么大激情了。</p></blockquote></blockquote><blockquote><blockquote><p>我有个想法：天下滔滔，时局动乱，但自己要沉得住气，不能不断兴奋，荒疏了自己的学业。每一场运动都像一场大潮，把很多人卷进来，往往，海潮退去，满地不过一些瓦砾而已。</p></blockquote></blockquote><blockquote><blockquote><p>有不同的道，从前有不同的道，现在有不同的道，将来还有不同的道。重要的问题不是找到唯一的道，而是这些不同的道之间怎样呼应，怎样交流，怎样斗争。你要是坚持说，哲学要的就是唯一</p></blockquote></blockquote><blockquote><blockquote><p>但这个格局我个人认为正在扭转当中，由西方主导世界的局面将一去不再复返。这个转折是全方位的，经济的，政治的，文化的。</p></blockquote></blockquote><blockquote><blockquote><p>我不是进步论者。</p></blockquote></blockquote><blockquote><blockquote><p>适应性不一定是好的，</p></blockquote></blockquote><blockquote><blockquote><p>历史并没有这样的一个终极的目标，历史会沿着意想不到的道路去发展。</p></blockquote></blockquote><blockquote><blockquote><p>历史的远景我们看不清楚，不必投入太多的情绪。</p></blockquote></blockquote><blockquote><blockquote><p>从那种大的历史观拉回来，拉到一个你比较有把握的认知中，以此来塑造和调节你个人的生活和事业。</p></blockquote></blockquote><blockquote><blockquote><p>我们读历史，因为历史拓宽了我们看待现实的视野。</p></blockquote></blockquote><blockquote><blockquote><p>我们读千年的历史，并不是为了看清历史的总体走向。在人类的整体发展中给自己找个位置，这只能是幻觉。历史教给我们更具体而微的东西，让我们更真切地了解我们自己的处境。</p></blockquote></blockquote><blockquote><blockquote><p>中年以前人有故事，中年以后就是干活。</p></blockquote></blockquote><blockquote><blockquote><p>哲学思考并不会提供终极答案，这一点，有些人听来觉得怪绝望的</p></blockquote></blockquote><blockquote><blockquote><p>不要把眼光拘囿在学院范围之内，要把学术上的问题跟他自己人生的问题，跟他时代的问题连到一起。</p></blockquote></blockquote><blockquote><blockquote><p>需要更诚实地面对我们的真实处境来思考。</p></blockquote></blockquote><h2 id="我们不再那样感受世界"><a href="#我们不再那样感受世界" class="headerlink" title="我们不再那样感受世界"></a>我们不再那样感受世界</h2><blockquote><blockquote><p>时代的关注点在不断变化。</p></blockquote></blockquote><blockquote><blockquote><p>你管他天下滔滔，是什么就是什么，你别因为天下滔滔就怎么着。</p></blockquote></blockquote><blockquote><blockquote><p>是因为这个时代我们不那么感受世界。</p></blockquote></blockquote><blockquote><blockquote><p>精英可以说，时代变了，我仍然坚持我的。</p></blockquote></blockquote><blockquote><blockquote><p>优秀的、超凡脱俗的东西被这个世界接受，一方面提升了世界，另外一方面呢，世界要用镀金的方式来接受你，不让你保持在超凡脱俗之中。</p></blockquote></blockquote><blockquote><blockquote><p>人们说作品有自己的命运大概是这个意思。</p></blockquote></blockquote><blockquote><blockquote><p>虽然貌似这个世界是变平了，很多东西是可以共享的，但是实际上，这种不公平会越来越加剧，权力会越来越集中。</p></blockquote></blockquote><blockquote><blockquote><p>优秀的人把追求卓越视作当然之事。</p></blockquote></blockquote><blockquote><blockquote><p>今天呢？每个人好像怎么做都是有道理的——你追求卓越是一种生活方式，我好死赖活也是一种生活方式。卓越被拉平到种种生活方式中的一种，也就无所谓卓越了。</p></blockquote></blockquote><blockquote><blockquote><p>所有人过上免除贫困和恐吓的生活，这成了每一个人首先要关心的事情</p></blockquote></blockquote><blockquote><blockquote><p>对底层的关怀成为衡量一切的正当性标准。</p></blockquote></blockquote><blockquote><blockquote><p>文化要沁在心里，不只是有文化修养，而是在心里要那个东西。</p></blockquote></blockquote><blockquote><blockquote><p>我们是干活儿的。贝多芬不高雅——这个我们都知道——听贝多芬的高雅。</p></blockquote></blockquote><blockquote><blockquote><p>有的时候我会觉得支持你走下去的，还是价值观。</p></blockquote></blockquote><blockquote><blockquote><p>文化传承，不能低到没文化，也不能高到飘起来，始终要有血肉和灵魂。</p></blockquote></blockquote><h2 id="读懂一两个大哲学家"><a href="#读懂一两个大哲学家" class="headerlink" title="读懂一两个大哲学家"></a>读懂一两个大哲学家</h2><blockquote><blockquote><p>你的生活需要复试记账吗？</p></blockquote></blockquote><blockquote><blockquote><p>中国这么多人，我们每个人其实都用不着做得太多，求多不如求好。</p></blockquote></blockquote><blockquote><blockquote><p>中国这么多人，每个人都制造十个新词，新词就太多了，弄不懂了。</p></blockquote></blockquote><blockquote><blockquote><p>专业杂志是知识增量，不是教育性的。</p></blockquote></blockquote><blockquote><blockquote><p>老师，我是研二学生，两年一晃就过去了，好像读了不少书，但也好像没抓到什么重点。中国的大学，就像高中一样，是课程主导的，学生跟着课程走就好了。到研究生阶段，你要往哪里去，要由你自己来确定了。我常用一个比喻，研究生之前，像在河里航行，到研究生阶段，你被抛到大海中间，你要是自己没有方向感就糟了。当然，即使有了方向感，航程也很漫长。慢慢走着逛着，关键是一路赏心悦目，乐在其中就好。</p></blockquote></blockquote><blockquote><blockquote><p>古人不掉书袋，没有书袋可掉，他们论证方式素朴，古人的论证围绕着他们的基本主张，用的是厚重的常识，从他们那里我们容易看出一些基本道理的组织。</p></blockquote></blockquote><blockquote><blockquote><p>古希腊人想到的德性，多半从the few着眼，我们想的多半是普遍道德，善良、勤奋啊，男女关系啊。</p></blockquote></blockquote><blockquote><blockquote><p>实际上，了解他们的进路，往往有助于松动我们的习惯，开阔自己的思路。读古人，主要是想从古人那里学习，这尤其包括意识到自己的世界图景中的问题。</p></blockquote></blockquote><blockquote><blockquote><p>现在社会发展又那么快，我们每一代人接受的都是很不同的知识和世界图景。</p></blockquote></blockquote><blockquote><blockquote><p>还有一类，大概想成为柏拉图这种人，成为孔子这样的人，想着建立一个大理论，指导社会，为万事开太平的那种。老学生都知道我是不太能接受这种想法的，别说咱们，就说孔子和柏拉图自己，也没开出万世太平来啊。不过，这些年，抱这种大志的人在哲学系里不多了，现在基本都转到中文系去了。构建宏大理论打算领导全世界的多半是从中文系出来的。</p></blockquote></blockquote><blockquote><blockquote><p>现在不是全世界最新的就不算创新。要做就得做到世界上最好的。那我们哪有这个机会？我们现在见多识广，你没做到世界级，就算失败了。从前的藩篱打破了，有一种解放感。我出生在一个小山村子，第一次来到海边，站在大海边上，会有解放的感觉。可是你永远回不到你的村庄，永远站在浩瀚无际的大海边上，甚至漂流在大海中央，那就可能不是解放感而是无力感了。</p></blockquote></blockquote><p>如：微信启动画面</p><blockquote><p>一个人直接面对太大的世界会带来一种无力感。</p></blockquote><blockquote><blockquote><p>一个人直接面对太大的世界会带来一种无力感。</p></blockquote></blockquote><h2 id="思想增益元气"><a href="#思想增益元气" class="headerlink" title="思想增益元气"></a>思想增益元气</h2><blockquote><blockquote><p>智慧的一个要求是，不让任何一种智慧充当王者，来统治世界，统治自己。</p></blockquote></blockquote><blockquote><blockquote><p>用厚实的生存托起反思。</p></blockquote></blockquote><blockquote><blockquote><p>把握深藏在可见事物背后的唯一的实在结构，也就是科学理论。科学理论促生现代技术，技术改变历史进程。</p></blockquote></blockquote><blockquote><blockquote><p>艺术和诗保持在可见的、可感的事物之中，抗拒对世界的唯一正确解释。</p></blockquote></blockquote><blockquote><blockquote><p>我不是康德主义者，不认为有放之四海皆准而具体可循的道德要求。但各个社会、各个人都有些确定要求。我希望自己比平均水准做得好一点儿。</p></blockquote></blockquote><h2 id="未来之思的臆测"><a href="#未来之思的臆测" class="headerlink" title="未来之思的臆测"></a>未来之思的臆测</h2><blockquote><blockquote><p>未来之思“小于哲学”，因为我们不再相信思想者是真理的代言人</p></blockquote></blockquote><blockquote><blockquote><p>本质的东西在历史过程的最后才显露出来，</p></blockquote></blockquote><blockquote><blockquote><p>海德格尔引用荷尔德林：“我们是一种对话，而且能彼此倾听”，对话的核心在于倾听，这一点海德格尔经常以各种形式谈到。</p></blockquote></blockquote><blockquote><blockquote><p>海德格尔阐释上引荷尔德林诗句时说：人植根于语言，而语言唯发生在对话中。</p></blockquote></blockquote><h2 id="哲学关心的是事物的意义"><a href="#哲学关心的是事物的意义" class="headerlink" title="哲学关心的是事物的意义"></a>哲学关心的是事物的意义</h2><blockquote><blockquote><p>自古至今的相对主义常说到一个人的蜜糖是另一个人的毒药什么的。</p></blockquote></blockquote><blockquote><blockquote><p>要从根本上消除分歧，我们必须把研究对象中的感知成分清除出去，只留下纯粹的客体，用事实性的语言来刻画。</p></blockquote></blockquote><blockquote><blockquote><p>数学是达到纯客观性或不如说去主体性的终极手段。</p></blockquote></blockquote><blockquote><blockquote><p>哲学首先并始终关心的恰是事物的意义，而不是要脱去感性和意义来把握事物。</p></blockquote></blockquote><blockquote><blockquote><p>如黑格尔所言，熟知不意味着真知，我们可能从来没看到它们的深层联系。</p></blockquote></blockquote><blockquote><blockquote><p>哲学的确定性与数学的确定性两者性质不同。数学的确定性来自定义和推理规则的严格界定。你走得对不对，可以分成一步一步来检验。哲学探究的确定性则来自另一类标准：你是否出自内心深处的觉悟参与到精神的对话之中。海德格尔把这称作“内在的严格性”。</p></blockquote></blockquote><blockquote><blockquote><p>我们往往停留在虚假观念营造的自我之上，所谓互相对话只是人云亦云的一些说辞。</p></blockquote></blockquote><blockquote><blockquote><p>八十年代是鼎革以来思想最自由的。</p></blockquote></blockquote><blockquote><blockquote><p>做学术，得出的结论要言之有据，学术规范的一部分就是要为这个提保障，引文要注明出处，等等。至于不可剽窃等等，说不上是学术规范，那是一般的规范，做人做事都要遵从的。</p></blockquote></blockquote><blockquote><blockquote><p>难说现在专家太多通儒太少，要说，没几个专家，也没几个通儒。</p></blockquote></blockquote><blockquote><blockquote><p>哲学是对经验的反思，是对知识的反思。</p></blockquote></blockquote><blockquote><blockquote><p>年轻人都有点理想主义，但是单靠理想不足以支持他走很远，还要有能力。</p></blockquote></blockquote><blockquote><blockquote><p>在西方，哲学是一种跟宗教平行的精神活动方式</p></blockquote></blockquote><blockquote><blockquote><p>最近一两个世纪，西方思想笼罩世界，但像中国这样一个大国，一个文化历史悠久的国家，它特有的世界图景，它特有的论理和穷理的方式，在我看并没有完全消失。</p></blockquote></blockquote><blockquote><blockquote><p>如果你身上活着中国特有的文化内容，你尽管做你的问题，生长出来的东西将是所谓哲学的中国方式。</p></blockquote></blockquote><blockquote><blockquote><p>每年不知道生产了多少论文、著作，业内外的人都知道，绝大多数，简单说，就是垃圾。用垃圾来充当生产力的评价标准，你能想象这对思想文化会产生何种毁灭性的作用。</p></blockquote></blockquote><blockquote><blockquote><p>多数人，哪怕好道，也不必以穷理盘道为业，专门穷理盘道容易蹈空。</p></blockquote></blockquote><h2 id="漫谈人工智能"><a href="#漫谈人工智能" class="headerlink" title="漫谈人工智能"></a>漫谈人工智能</h2><blockquote><blockquote><p>人工智能要把机器变得越来越像人，生物工程要把人变得越来越像机器。</p></blockquote></blockquote><blockquote><blockquote><p>长寿作为一种可欲的东西，在各种文化里地位不同，好像在咱们中国摆的位置最高，在古希腊，极流行的观念是人过完了青壮年就该去死了。我其实挺怀疑人是不是真的都愿意长生不老。看着一群活蹦乱跳的孩子，大家都开心，看着年轻人旺盛生长，大家都开心，我们老年人要是都不让出地方，孩子和青年往哪儿长呢？</p></blockquote></blockquote><blockquote><blockquote><p>计算能力这种“智能”跟人类智能不是一回事。人的智能跟感知连在一起，感知</p></blockquote></blockquote>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;《走出唯一真理观》&quot;&gt;&lt;a href=&quot;#《走出唯一真理观》&quot; class=&quot;headerlink&quot; title=&quot;《走出唯一真理观》&quot;&gt;&lt;/a&gt;《走出唯一真理观》&lt;/h1&gt;&lt;p&gt;陈嘉映&lt;/p&gt;
+&lt;h2 id=&quot;走出唯一真理观&quot;&gt;&lt;a href=&quot;#走出唯一真理观</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="https://richfan.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="哲学" scheme="https://richfan.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Parallel alpha</title>
     <link href="https://richfan.github.io/2021/05/24/2021-05-24/"/>
     <id>https://richfan.github.io/2021/05/24/2021-05-24/</id>
@@ -97,34 +153,6 @@
     
     
     <category term="novel" scheme="https://richfan.github.io/tags/novel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>陈嘉映«走出唯一真理观»摘录</title>
-    <link href="https://richfan.github.io/2021/05/24/2021-05-24-sophia/"/>
-    <id>https://richfan.github.io/2021/05/24/2021-05-24-sophia/</id>
-    <published>2021-05-23T16:00:00.000Z</published>
-    <updated>2021-09-29T08:14:55.130Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="《走出唯一真理观》"><a href="#《走出唯一真理观》" class="headerlink" title="《走出唯一真理观》"></a>《走出唯一真理观》</h1><p>陈嘉映</p><h2 id="走出唯一真理观"><a href="#走出唯一真理观" class="headerlink" title="走出唯一真理观"></a>走出唯一真理观</h2><blockquote><blockquote><p>1966年5月16号被认作是“文化大革命”正式开始的时间</p></blockquote></blockquote><blockquote><blockquote><p>本来，你是在琢磨怎样能过得幸福，或者怎样让你女儿过上幸福生活。想着想着，你开始琢磨什么才叫幸福生活。</p></blockquote></blockquote><blockquote><blockquote><p>年轻，没到删繁就简三秋树那种境界，学得越多越好。</p></blockquote></blockquote><blockquote><blockquote><p>当时要是像现在这样，知道天下的学问你就是花一辈子也学不到一星半点，可能就没那么大激情了。</p></blockquote></blockquote><blockquote><blockquote><p>我有个想法：天下滔滔，时局动乱，但自己要沉得住气，不能不断兴奋，荒疏了自己的学业。每一场运动都像一场大潮，把很多人卷进来，往往，海潮退去，满地不过一些瓦砾而已。</p></blockquote></blockquote><blockquote><blockquote><p>有不同的道，从前有不同的道，现在有不同的道，将来还有不同的道。重要的问题不是找到唯一的道，而是这些不同的道之间怎样呼应，怎样交流，怎样斗争。你要是坚持说，哲学要的就是唯一</p></blockquote></blockquote><blockquote><blockquote><p>但这个格局我个人认为正在扭转当中，由西方主导世界的局面将一去不再复返。这个转折是全方位的，经济的，政治的，文化的。</p></blockquote></blockquote><blockquote><blockquote><p>我不是进步论者。</p></blockquote></blockquote><blockquote><blockquote><p>适应性不一定是好的，</p></blockquote></blockquote><blockquote><blockquote><p>历史并没有这样的一个终极的目标，历史会沿着意想不到的道路去发展。</p></blockquote></blockquote><blockquote><blockquote><p>历史的远景我们看不清楚，不必投入太多的情绪。</p></blockquote></blockquote><blockquote><blockquote><p>从那种大的历史观拉回来，拉到一个你比较有把握的认知中，以此来塑造和调节你个人的生活和事业。</p></blockquote></blockquote><blockquote><blockquote><p>我们读历史，因为历史拓宽了我们看待现实的视野。</p></blockquote></blockquote><blockquote><blockquote><p>我们读千年的历史，并不是为了看清历史的总体走向。在人类的整体发展中给自己找个位置，这只能是幻觉。历史教给我们更具体而微的东西，让我们更真切地了解我们自己的处境。</p></blockquote></blockquote><blockquote><blockquote><p>中年以前人有故事，中年以后就是干活。</p></blockquote></blockquote><blockquote><blockquote><p>哲学思考并不会提供终极答案，这一点，有些人听来觉得怪绝望的</p></blockquote></blockquote><blockquote><blockquote><p>不要把眼光拘囿在学院范围之内，要把学术上的问题跟他自己人生的问题，跟他时代的问题连到一起。</p></blockquote></blockquote><blockquote><blockquote><p>需要更诚实地面对我们的真实处境来思考。</p></blockquote></blockquote><h2 id="我们不再那样感受世界"><a href="#我们不再那样感受世界" class="headerlink" title="我们不再那样感受世界"></a>我们不再那样感受世界</h2><blockquote><blockquote><p>时代的关注点在不断变化。</p></blockquote></blockquote><blockquote><blockquote><p>你管他天下滔滔，是什么就是什么，你别因为天下滔滔就怎么着。</p></blockquote></blockquote><blockquote><blockquote><p>是因为这个时代我们不那么感受世界。</p></blockquote></blockquote><blockquote><blockquote><p>精英可以说，时代变了，我仍然坚持我的。</p></blockquote></blockquote><blockquote><blockquote><p>优秀的、超凡脱俗的东西被这个世界接受，一方面提升了世界，另外一方面呢，世界要用镀金的方式来接受你，不让你保持在超凡脱俗之中。</p></blockquote></blockquote><blockquote><blockquote><p>人们说作品有自己的命运大概是这个意思。</p></blockquote></blockquote><blockquote><blockquote><p>虽然貌似这个世界是变平了，很多东西是可以共享的，但是实际上，这种不公平会越来越加剧，权力会越来越集中。</p></blockquote></blockquote><blockquote><blockquote><p>优秀的人把追求卓越视作当然之事。</p></blockquote></blockquote><blockquote><blockquote><p>今天呢？每个人好像怎么做都是有道理的——你追求卓越是一种生活方式，我好死赖活也是一种生活方式。卓越被拉平到种种生活方式中的一种，也就无所谓卓越了。</p></blockquote></blockquote><blockquote><blockquote><p>所有人过上免除贫困和恐吓的生活，这成了每一个人首先要关心的事情</p></blockquote></blockquote><blockquote><blockquote><p>对底层的关怀成为衡量一切的正当性标准。</p></blockquote></blockquote><blockquote><blockquote><p>文化要沁在心里，不只是有文化修养，而是在心里要那个东西。</p></blockquote></blockquote><blockquote><blockquote><p>我们是干活儿的。贝多芬不高雅——这个我们都知道——听贝多芬的高雅。</p></blockquote></blockquote><blockquote><blockquote><p>有的时候我会觉得支持你走下去的，还是价值观。</p></blockquote></blockquote><blockquote><blockquote><p>文化传承，不能低到没文化，也不能高到飘起来，始终要有血肉和灵魂。</p></blockquote></blockquote><h2 id="读懂一两个大哲学家"><a href="#读懂一两个大哲学家" class="headerlink" title="读懂一两个大哲学家"></a>读懂一两个大哲学家</h2><blockquote><blockquote><p>你的生活需要复试记账吗？</p></blockquote></blockquote><blockquote><blockquote><p>中国这么多人，我们每个人其实都用不着做得太多，求多不如求好。</p></blockquote></blockquote><blockquote><blockquote><p>中国这么多人，每个人都制造十个新词，新词就太多了，弄不懂了。</p></blockquote></blockquote><blockquote><blockquote><p>专业杂志是知识增量，不是教育性的。</p></blockquote></blockquote><blockquote><blockquote><p>老师，我是研二学生，两年一晃就过去了，好像读了不少书，但也好像没抓到什么重点。中国的大学，就像高中一样，是课程主导的，学生跟着课程走就好了。到研究生阶段，你要往哪里去，要由你自己来确定了。我常用一个比喻，研究生之前，像在河里航行，到研究生阶段，你被抛到大海中间，你要是自己没有方向感就糟了。当然，即使有了方向感，航程也很漫长。慢慢走着逛着，关键是一路赏心悦目，乐在其中就好。</p></blockquote></blockquote><blockquote><blockquote><p>古人不掉书袋，没有书袋可掉，他们论证方式素朴，古人的论证围绕着他们的基本主张，用的是厚重的常识，从他们那里我们容易看出一些基本道理的组织。</p></blockquote></blockquote><blockquote><blockquote><p>古希腊人想到的德性，多半从the few着眼，我们想的多半是普遍道德，善良、勤奋啊，男女关系啊。</p></blockquote></blockquote><blockquote><blockquote><p>实际上，了解他们的进路，往往有助于松动我们的习惯，开阔自己的思路。读古人，主要是想从古人那里学习，这尤其包括意识到自己的世界图景中的问题。</p></blockquote></blockquote><blockquote><blockquote><p>现在社会发展又那么快，我们每一代人接受的都是很不同的知识和世界图景。</p></blockquote></blockquote><blockquote><blockquote><p>还有一类，大概想成为柏拉图这种人，成为孔子这样的人，想着建立一个大理论，指导社会，为万事开太平的那种。老学生都知道我是不太能接受这种想法的，别说咱们，就说孔子和柏拉图自己，也没开出万世太平来啊。不过，这些年，抱这种大志的人在哲学系里不多了，现在基本都转到中文系去了。构建宏大理论打算领导全世界的多半是从中文系出来的。</p></blockquote></blockquote><blockquote><blockquote><p>现在不是全世界最新的就不算创新。要做就得做到世界上最好的。那我们哪有这个机会？我们现在见多识广，你没做到世界级，就算失败了。从前的藩篱打破了，有一种解放感。我出生在一个小山村子，第一次来到海边，站在大海边上，会有解放的感觉。可是你永远回不到你的村庄，永远站在浩瀚无际的大海边上，甚至漂流在大海中央，那就可能不是解放感而是无力感了。</p></blockquote></blockquote><p>如：微信启动画面</p><blockquote><p>一个人直接面对太大的世界会带来一种无力感。</p></blockquote><blockquote><blockquote><p>一个人直接面对太大的世界会带来一种无力感。</p></blockquote></blockquote><h2 id="思想增益元气"><a href="#思想增益元气" class="headerlink" title="思想增益元气"></a>思想增益元气</h2><blockquote><blockquote><p>智慧的一个要求是，不让任何一种智慧充当王者，来统治世界，统治自己。</p></blockquote></blockquote><blockquote><blockquote><p>用厚实的生存托起反思。</p></blockquote></blockquote><blockquote><blockquote><p>把握深藏在可见事物背后的唯一的实在结构，也就是科学理论。科学理论促生现代技术，技术改变历史进程。</p></blockquote></blockquote><blockquote><blockquote><p>艺术和诗保持在可见的、可感的事物之中，抗拒对世界的唯一正确解释。</p></blockquote></blockquote><blockquote><blockquote><p>我不是康德主义者，不认为有放之四海皆准而具体可循的道德要求。但各个社会、各个人都有些确定要求。我希望自己比平均水准做得好一点儿。</p></blockquote></blockquote><h2 id="未来之思的臆测"><a href="#未来之思的臆测" class="headerlink" title="未来之思的臆测"></a>未来之思的臆测</h2><blockquote><blockquote><p>未来之思“小于哲学”，因为我们不再相信思想者是真理的代言人</p></blockquote></blockquote><blockquote><blockquote><p>本质的东西在历史过程的最后才显露出来，</p></blockquote></blockquote><blockquote><blockquote><p>海德格尔引用荷尔德林：“我们是一种对话，而且能彼此倾听”，对话的核心在于倾听，这一点海德格尔经常以各种形式谈到。</p></blockquote></blockquote><blockquote><blockquote><p>海德格尔阐释上引荷尔德林诗句时说：人植根于语言，而语言唯发生在对话中。</p></blockquote></blockquote><h2 id="哲学关心的是事物的意义"><a href="#哲学关心的是事物的意义" class="headerlink" title="哲学关心的是事物的意义"></a>哲学关心的是事物的意义</h2><blockquote><blockquote><p>自古至今的相对主义常说到一个人的蜜糖是另一个人的毒药什么的。</p></blockquote></blockquote><blockquote><blockquote><p>要从根本上消除分歧，我们必须把研究对象中的感知成分清除出去，只留下纯粹的客体，用事实性的语言来刻画。</p></blockquote></blockquote><blockquote><blockquote><p>数学是达到纯客观性或不如说去主体性的终极手段。</p></blockquote></blockquote><blockquote><blockquote><p>哲学首先并始终关心的恰是事物的意义，而不是要脱去感性和意义来把握事物。</p></blockquote></blockquote><blockquote><blockquote><p>如黑格尔所言，熟知不意味着真知，我们可能从来没看到它们的深层联系。</p></blockquote></blockquote><blockquote><blockquote><p>哲学的确定性与数学的确定性两者性质不同。数学的确定性来自定义和推理规则的严格界定。你走得对不对，可以分成一步一步来检验。哲学探究的确定性则来自另一类标准：你是否出自内心深处的觉悟参与到精神的对话之中。海德格尔把这称作“内在的严格性”。</p></blockquote></blockquote><blockquote><blockquote><p>我们往往停留在虚假观念营造的自我之上，所谓互相对话只是人云亦云的一些说辞。</p></blockquote></blockquote><blockquote><blockquote><p>八十年代是鼎革以来思想最自由的。</p></blockquote></blockquote><blockquote><blockquote><p>做学术，得出的结论要言之有据，学术规范的一部分就是要为这个提保障，引文要注明出处，等等。至于不可剽窃等等，说不上是学术规范，那是一般的规范，做人做事都要遵从的。</p></blockquote></blockquote><blockquote><blockquote><p>难说现在专家太多通儒太少，要说，没几个专家，也没几个通儒。</p></blockquote></blockquote><blockquote><blockquote><p>哲学是对经验的反思，是对知识的反思。</p></blockquote></blockquote><blockquote><blockquote><p>年轻人都有点理想主义，但是单靠理想不足以支持他走很远，还要有能力。</p></blockquote></blockquote><blockquote><blockquote><p>在西方，哲学是一种跟宗教平行的精神活动方式</p></blockquote></blockquote><blockquote><blockquote><p>最近一两个世纪，西方思想笼罩世界，但像中国这样一个大国，一个文化历史悠久的国家，它特有的世界图景，它特有的论理和穷理的方式，在我看并没有完全消失。</p></blockquote></blockquote><blockquote><blockquote><p>如果你身上活着中国特有的文化内容，你尽管做你的问题，生长出来的东西将是所谓哲学的中国方式。</p></blockquote></blockquote><blockquote><blockquote><p>每年不知道生产了多少论文、著作，业内外的人都知道，绝大多数，简单说，就是垃圾。用垃圾来充当生产力的评价标准，你能想象这对思想文化会产生何种毁灭性的作用。</p></blockquote></blockquote><blockquote><blockquote><p>多数人，哪怕好道，也不必以穷理盘道为业，专门穷理盘道容易蹈空。</p></blockquote></blockquote><h2 id="漫谈人工智能"><a href="#漫谈人工智能" class="headerlink" title="漫谈人工智能"></a>漫谈人工智能</h2><blockquote><blockquote><p>人工智能要把机器变得越来越像人，生物工程要把人变得越来越像机器。</p></blockquote></blockquote><blockquote><blockquote><p>长寿作为一种可欲的东西，在各种文化里地位不同，好像在咱们中国摆的位置最高，在古希腊，极流行的观念是人过完了青壮年就该去死了。我其实挺怀疑人是不是真的都愿意长生不老。看着一群活蹦乱跳的孩子，大家都开心，看着年轻人旺盛生长，大家都开心，我们老年人要是都不让出地方，孩子和青年往哪儿长呢？</p></blockquote></blockquote><blockquote><blockquote><p>计算能力这种“智能”跟人类智能不是一回事。人的智能跟感知连在一起，感知</p></blockquote></blockquote>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;《走出唯一真理观》&quot;&gt;&lt;a href=&quot;#《走出唯一真理观》&quot; class=&quot;headerlink&quot; title=&quot;《走出唯一真理观》&quot;&gt;&lt;/a&gt;《走出唯一真理观》&lt;/h1&gt;&lt;p&gt;陈嘉映&lt;/p&gt;
-&lt;h2 id=&quot;走出唯一真理观&quot;&gt;&lt;a href=&quot;#走出唯一真理观</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="https://richfan.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="哲学" scheme="https://richfan.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
     
   </entry>
   
@@ -522,33 +550,6 @@
         
         
     <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;Magician Cat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:right;font-siz</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="https://richfan.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="reading" scheme="https://richfan.github.io/tags/reading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Fahrenheit 451</title>
-    <link href="https://richfan.github.io/2020/08/12/2020-08-12/"/>
-    <id>https://richfan.github.io/2020/08/12/2020-08-12/</id>
-    <published>2020-08-11T16:00:00.000Z</published>
-    <updated>2021-09-26T08:15:44.074Z</updated>
-    
-    <content type="html"><![CDATA[<p><span style="display:block;text-align:right;color:orangered;">Magician Cat Front Page </span><br><span style="display:block;text-align:right;font-size:16pt;color:darkblue;">NEWS</span></p><h1 id="Fahrenheit-451"><a href="#Fahrenheit-451" class="headerlink" title="Fahrenheit 451"></a>Fahrenheit 451</h1><h2 id="QUESTION"><a href="#QUESTION" class="headerlink" title="QUESTION"></a>QUESTION</h2><p>This novel is about a dystopian society in the future. Guy Montag, a fireman, was directed by the government to burn books. One day he met a girl named Clarisse, who gave him new thoughts about life. He then ventures to life beyond <em>‘the family’</em>.</p><p>We recommend this interesting novel for you to read. As you follow Montag in his wonderous tracks, you will learn new things which are, and will be, important in your own life. Please type in ‘Fahrenheit 451’ or ‘Montag’ in the search engine at <a href="http://www.magiciancat.com/">http://www.magiciancat.com</a> for more information about this topic.</p><p><span style="display:block;text-align:right;font-size:12pt;color:darkblue;"><strong>Read more</strong></span></p><h2 id="READERS"><a href="#READERS" class="headerlink" title="READERS"></a>READERS</h2><p><span style="display:block;text-align:left;font-size:12pt;color:darkgreen;">Aimee: wow, I really love these small reports :)</span></p><p><span style="display:block;text-align:left;font-size:12pt;color:darkblue;">Liz: really amazing! I think U R interesting 2 :)))</span></p><p><span style="display:block;text-align:left;font-size:12pt;color:brown;">John: so impressive, can’t w8 to see the book!!!</span></p><p><span style="display:block;text-align:left;font-size:12pt;color:#663377;">Lester: u guys have any copies of the real book? I want some advice about where to find and buy the book.</span></p><p><span style="display:block;background-color:#6877cc;color:black;text-align:left;font-size:12pt;opacity:0.9;border-radius:1ex;"><strong>Author’s response: you can find Fahrenheit 451 at our international website http:///<a href="http://www.magiciancatbook.com/">www.magiciancatbook.com</a><br>It is open 24/7.</strong></span></p><p><span style="display:block;text-align:left;font-size:12pt;color:green;">Paul: yo, guys, I am doing a book report on this, but I didn’t read the book first-hand. The report is due tomorrow, so I don’t have time to read. What should I do? Got any advice? </span></p><p><span style="display:block;background-color:#6877cc;color:black;text-align:left;font-size:12pt;opacity:0.9;border-radius:1ex;"><strong>Author’s response: you can type ‘quick info about 451’ in the search engine of magiciancat.com, click on ‘report’ at the home page. You can learn about the whole story in a small package there.</strong></span></p><p><span style="display:block;text-align:left;font-size:12pt;color:darkgreen;">Lizzy: gr8 book and writer 2, just finished it. So happy to see it on Magician cat! </span></p><p><a href="http://127.0.0.1:8080/">Please write and record your feelings, click here to respond.</a></p><p><span style="display:block;text-align:right;font-size:10pt;color:darkgrey;">Bye-bye for now,</span><br><span style="display:block;text-align:right;font-size:10pt;color:darkgrey;">Magician cat</span></p><h2 id="Teacher’s-comments"><a href="#Teacher’s-comments" class="headerlink" title="Teacher’s comments:"></a>Teacher’s comments:</h2><blockquote><p>Great job, Pluvia. Another interesting format. You have done well in replicating the informal text-chat that we see all over internet forums. Keep experimenting with all the different styles and genres of writing. It’s important because actually real spoken English is usually very informal, and therefore learning slang and colloquialisms is extremely useful.</p></blockquote>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:right;color:orangered;&quot;&gt;Magician Cat Front Page &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;display:block;text-align:ri</summary>
         
       
     

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"richfan.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="第一讲 有理数的基本认识 已知数轴上有A和B两点， A、B之间的距离为2，点A与原点O的距离为4，那么所有满足条件的点B与原点O的距离之和等于多少？  第二讲 绝对值与相反数 一般地，数轴上表示数m和数n的两点之间的距离等于$|{m-n}|$，如：数轴上表示3.5和1.5的两点之间的距离是$|3.5-1.5|&#x3D;2$；表示$-4$和$1$两点之间的距离是$|-4-1|&#x3D;5$，根据以上材料，结合数轴与">
+<meta property="og:type" content="article">
+<meta property="og:title" content="错题集锦（一）">
+<meta property="og:url" content="https://richfan.github.io/2021/10/15/2021-10-15-math1/index.html">
+<meta property="og:site_name" content="ArianaのAcademia">
+<meta property="og:description" content="第一讲 有理数的基本认识 已知数轴上有A和B两点， A、B之间的距离为2，点A与原点O的距离为4，那么所有满足条件的点B与原点O的距离之和等于多少？  第二讲 绝对值与相反数 一般地，数轴上表示数m和数n的两点之间的距离等于$|{m-n}|$，如：数轴上表示3.5和1.5的两点之间的距离是$|3.5-1.5|&#x3D;2$；表示$-4$和$1$两点之间的距离是$|-4-1|&#x3D;5$，根据以上材料，结合数轴与">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-10-14T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-10-15T02:17:25.282Z">
+<meta property="article:author" content="Ariana">
+<meta property="article:tag" content="数学学习">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://richfan.github.io/2021/10/15/2021-10-15-math1/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>错题集锦（一） | ArianaのAcademia</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="ArianaのAcademia" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">ArianaのAcademia</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">梵我同一</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2021/10/15/2021-10-15-math1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Ariana">
+      <meta itemprop="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ArianaのAcademia">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          错题集锦（一）
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-10-15 00:00:00 / 修改时间：10:17:25" itemprop="dateCreated datePublished" datetime="2021-10-15T00:00:00+08:00">2021-10-15</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%95%B0%E5%AD%A6%E6%8E%A2%E7%A9%B6/" itemprop="url" rel="index"><span itemprop="name">数学探究</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="第一讲-有理数的基本认识"><a href="#第一讲-有理数的基本认识" class="headerlink" title="第一讲 有理数的基本认识"></a>第一讲 有理数的基本认识</h1><ol start="17">
+<li>已知数轴上有A和B两点， A、B之间的距离为2，点A与原点O的距离为4，那么所有满足条件的点B与原点O的距离之和等于多少？</li>
+</ol>
+<h1 id="第二讲-绝对值与相反数"><a href="#第二讲-绝对值与相反数" class="headerlink" title="第二讲 绝对值与相反数"></a>第二讲 绝对值与相反数</h1><ol start="13">
+<li>一般地，数轴上表示数m和数n的两点之间的距离等于$|{m-n}|$，如：数轴上表示3.5和1.5的两点之间的距离是$|3.5-1.5|=2$；表示$-4$和$1$两点之间的距离是$|-4-1|=5$，根据以上材料，结合数轴与绝对值的知识回答下列问题：<br>（1）如果表述数$|a|$和$-1.5$的两点之间的距离是3，那么$a=\underline{  \qquad\qquad\qquad }$<br>（2）当$a\underline{\qquad\qquad\qquad}$时，$|a=3|+|a-5|$的值最小，最小值是$\underline{\qquad\qquad\qquad}$<br>当$a\underline{\qquad\qquad\qquad}$时，$|a+3|+|a-5|+|a-6|$的值最小，最小值是$\underline{\qquad\qquad\qquad}$ （3）依照上述方法，$|a+6|+|a-2|+|a-4|+|a+4|$的最小值是$\underline{\qquad\qquad\qquad}$<br /></li>
+</ol>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h1 id="第三讲-有理数的混合运算"><a href="#第三讲-有理数的混合运算" class="headerlink" title="第三讲 有理数的混合运算"></a>第三讲 有理数的混合运算</h1><ol>
+<li>下列说法中，正确的在题后打“√”，错误的在题后打“×”<br>（4）较小的有理数减去较大的有理数的差一定是负数。（      ）</li>
+<li>若$|x-y+3|$与$|x+y-2020 |$互为相反数，则$\frac{x+2y}{x-y}$的值是$\underline{\qquad\qquad\qquad}$</li>
+<li>若$a&lt;0，ab&lt;0$，那么$|b-a+1|-|a-b-5|$等于$\underline{\qquad\qquad\qquad}$</li>
+<li>拒绝“餐桌浪费”刻不容缓，据统计全国每年浪费食物总量约为50000000000千克，这个数据用科学计数法表示为$\underline{\qquad\qquad\qquad}$。</li>
+<li>若$a$与$2b$互为倒数，$-c$与$\frac{d}{2}$互为相反数，$x$的绝对值等于3，求代数式$2ab-2c+d+\Large\frac{x}{3}$的值。</li>
+<li>直接写出答案：<br>（12） $(-99)\times999=$</li>
+<li>计算：<br>（3） $-3^2-(-3)^3+(-2)^2-2^3$</li>
+</ol>
+<h1 id="第四讲-代数式"><a href="#第四讲-代数式" class="headerlink" title="第四讲 代数式"></a>第四讲 代数式</h1><ol start="4">
+<li>两堆棋子，将第一堆的3个棋子移动到第二堆去之后，第二堆的棋子数就成为第一堆棋子的3倍，设第一堆原有$P$个棋子，第二堆原有的棋子为$\underline{\qquad\qquad\qquad}$个。</li>
+<li>（1）$-a^2bc^3$的系数是$\underline{\qquad\qquad}$；次数是$\underline{\qquad\qquad}$;<br>（2）$-\Large\frac{2\pi xyz^2}{5}$的系数是$\underline{\qquad\qquad}$；次数是$\underline{\qquad\qquad}$;</li>
+<li>多项式$3x^2yz+2-4x^2y^5+5xy^3$的项数是$\underline{\qquad\qquad}$，次数是$\underline{\qquad\qquad}$；</li>
+<li>多项式$8ab^4-\frac{2}{7}a^2b^2+a^2bc^3-\pi-ab$的常数项是$\underline{\qquad\qquad}$，四次项系数是$\underline{\qquad\qquad}$</li>
+<li>当$k=\underline{\qquad\qquad}$时，多项式$2x^2-7kxy+7xy+3y^2+5y$中不含$xy$项。</li>
+<li>求值$5ab-7a^2b^2-8ab+5a^2b^2-ab$，其中$a=\frac{1}{2},b=-2$。</li>
+</ol>
+<h1 id="第五讲-整式的加减"><a href="#第五讲-整式的加减" class="headerlink" title="第五讲 整式的加减"></a>第五讲 整式的加减</h1><p>例9. 化简：$3x^3-[5x^2+3(x^3+\frac{2}{3}x^2-\frac{1}{3})+4]+3$</p>
+<ol start="12">
+<li>若多项式$2x^2+ax-y+6-2(bx^2+3x-5y)-1$的值与$x$的取值无关，求$\frac{1}{3}a^3-2ab-\frac{1}{4}a^3+3ab^2$的值</li>
+<li>已知：$m,x,y$满足：$(1)\frac{2}{3}(x-5)^2+5|m|=0$；$(2)-2a^2b^{y+1}$与$7b^3a^2$是同类项。<br>求代数式：$2x^2-6y^2+m(xy-9y^2)-(3x^2-3xy+7y^2)$的值。</li>
+</ol>
+<h1 id="第六讲-综合复习"><a href="#第六讲-综合复习" class="headerlink" title="第六讲 综合复习"></a>第六讲 综合复习</h1><ol>
+<li>已知$|a|=5，|b|=3，$且$|a-b|&gt;a-b$，则$a+b$的值为$\underline{\qquad\qquad}$</li>
+<li>已知一个三位数，十位上的数为a，十位上的数比个位上的数的$\frac{1}{4}$多1，百位上的数是十位上的数的二倍，用含$a$的代数式表示这个三位数是$\underline{\qquad\qquad\qquad\qquad}$。</li>
+<li>三个有理数$a,b,c$满足$abc&lt;0，a+b+c&gt;0$，当$x=\frac{|a|}{a}+\frac{|b|}{b}+\frac{|c|}{c}$时，求代数式$x^{19}-92x+2$的值。</li>
+<li>A和B两家公司都准备向社会招聘人才，两家公司招聘条件基本相同，只有工资待遇有如下差异：A公司，年薪10万元，每年加工龄工资2000元；B公司，半年薪五万元，每半年加工龄工资500元，从收入的角度考虑，选择哪家公司有利？</li>
+<li>计算<br> （4） $-17+17\div(-1)^{11}-5^2\times(-0.2)^3$<br> 解：原式=</li>
+</ol>
+<h1 id="附录（计算篇）"><a href="#附录（计算篇）" class="headerlink" title="附录（计算篇）"></a>附录（计算篇）</h1><ol>
+<li>混合计算<br>（3） $-27\div\frac{9}{4}\times(-\frac{4}{9})+4-4\times(-\frac{1}{3})$<br>解：原式=</li>
+</ol>
+<p>例11. 阅读理解：给定次序的$n$个数$a_1，a_2，\ldots，a_n$，记$S_k=a_1+a_2+\ldots+a_k$，为前$k$个数的和$(1\le k\le n)$，定义$A=(S_1+S_2+\ldots+S_n)\div n$称它们的“凯森和”，如$a_1=2， a_2=3， a_3=3，S_1=2，S_2+5，S_3=8，$凯森和$A=(2+5+8)\div 3=5$，若有99个数$a_1，a_2，\ldots，a_{99}$的凯森和为100，则添上21后的100个数$21， a_1，a_2，\ldots ,a_{99}$的凯森和是$\underline{\qquad\qquad\qquad}$。</p>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.png">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%95%B0%E5%AD%A6%E5%AD%A6%E4%B9%A0/" rel="tag"># 数学学习</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/09/14/2021-09-14/" rel="prev" title="三月桃良·韫玉札记">
+      <i class="fa fa-chevron-left"></i> 三月桃良·韫玉札记
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E8%AE%B2-%E6%9C%89%E7%90%86%E6%95%B0%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86"><span class="nav-number">1.</span> <span class="nav-text">第一讲 有理数的基本认识</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E8%AE%B2-%E7%BB%9D%E5%AF%B9%E5%80%BC%E4%B8%8E%E7%9B%B8%E5%8F%8D%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text">第二讲 绝对值与相反数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">3.</span> <span class="nav-text"></span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E8%AE%B2-%E6%9C%89%E7%90%86%E6%95%B0%E7%9A%84%E6%B7%B7%E5%90%88%E8%BF%90%E7%AE%97"><span class="nav-number">4.</span> <span class="nav-text">第三讲 有理数的混合运算</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E8%AE%B2-%E4%BB%A3%E6%95%B0%E5%BC%8F"><span class="nav-number">5.</span> <span class="nav-text">第四讲 代数式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E8%AE%B2-%E6%95%B4%E5%BC%8F%E7%9A%84%E5%8A%A0%E5%87%8F"><span class="nav-number">6.</span> <span class="nav-text">第五讲 整式的加减</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E5%85%AD%E8%AE%B2-%E7%BB%BC%E5%90%88%E5%A4%8D%E4%B9%A0"><span class="nav-number">7.</span> <span class="nav-text">第六讲 综合复习</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%99%84%E5%BD%95%EF%BC%88%E8%AE%A1%E7%AE%97%E7%AF%87%EF%BC%89"><span class="nav-number">8.</span> <span class="nav-text">附录（计算篇）</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Ariana"
+      src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">Ariana</p>
+  <div class="site-description" itemprop="description">大气磅礴，气象万千；梵我同一，法相庄严。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">168</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">62</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/richfan" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;richfan" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ariana</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+    <script defer src="/lib/three/three-waves.min.js"></script>
+    <script defer src="/lib/three/canvas_lines.min.js"></script>
+    <script defer src="/lib/three/canvas_sphere.min.js"></script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+  
+
+  
+
+</body>
+</html>

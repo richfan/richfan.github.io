@@ -166,6 +166,102 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/01/28/2019-01-28-VIM%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Ariana">
+      <meta itemprop="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ArianaのAcademia">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/01/28/2019-01-28-VIM%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">VIM学习笔记</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-01-28 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-28T00:00:00+08:00">2019-01-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-09-29 11:25:55" itemprop="dateModified" datetime="2021-09-29T11:25:55+08:00">2021-09-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%94%B5%E8%84%91%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">电脑技术</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="常规操作"><a href="#常规操作" class="headerlink" title="常规操作"></a>常规操作</h2><table>
+<thead>
+<tr>
+<th align="left">命令</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">x</td>
+<td align="left">删除光标下的字符</td>
+</tr>
+</tbody></table>
+<p><img src="!--swig%EF%BF%BC2--" alt="vim键盘"></p>
+<h2 id="windows下vim中文乱码处理"><a href="#windows下vim中文乱码处理" class="headerlink" title="windows下vim中文乱码处理"></a>windows下vim中文乱码处理</h2><p>现象：</p>
+<p>gvim安装后，打开中文utf-8编码的文件中文显示乱码</p>
+<p>处理：</p>
+<p>1、启动gvim8.0，菜单 ”编辑“-&gt;”启动设定”</p>
+<p>在文件最开始处添加如下两行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">set fileencodings=utf-8,ucs-bom,cp936,big5</span><br><span class="line">set fileencoding=utf-8</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="vim关于文件编码常用的命令"><a href="#vim关于文件编码常用的命令" class="headerlink" title="vim关于文件编码常用的命令"></a>vim关于文件编码常用的命令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">:set fileencoding    查看文件编码</span><br><span class="line">:set fileformat       查看文件格式</span><br><span class="line">:set fileencoding=utf-8 转换文件编码为utf-8</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>windows在命令行使用vim,只需要把gvim的路径配置到环境变量Path就可以了。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/01/28/2019-01-28-homework-of-pluvia/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -2736,126 +2832,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/01/13/2019-01-13-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E4%BA%BA%E7%94%9F%E9%9A%8F%E6%97%B6%E5%8F%AF%E4%BB%A5%E9%87%8D%E6%9D%A5/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Ariana">
-      <meta itemprop="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ArianaのAcademia">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/01/13/2019-01-13-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E4%BA%BA%E7%94%9F%E9%9A%8F%E6%97%B6%E5%8F%AF%E4%BB%A5%E9%87%8D%E6%9D%A5/" class="post-title-link" itemprop="url">《人生随时可以重来-摩西奶奶》读书笔记</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2019-01-13 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-13T00:00:00+08:00">2019-01-13</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-29 11:00:14" itemprop="dateModified" datetime="2021-09-29T11:00:14+08:00">2021-09-29</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">读书笔记</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="人生随时可以重来"><a href="#人生随时可以重来" class="headerlink" title="人生随时可以重来"></a>人生随时可以重来</h2><p>摩西奶奶</p>
-<h3 id="第二章-人生漫长，别怕重新来过"><a href="#第二章-人生漫长，别怕重新来过" class="headerlink" title="第二章 人生漫长，别怕重新来过"></a>第二章 人生漫长，别怕重新来过</h3><blockquote>
-<p>我们常常会因为手抱着月亮，而错过了整片星空。</p>
-</blockquote>
-<blockquote>
-<p>容颜的老去，没有人能够阻止，但是年轻的心态却没有人能够夺走。</p>
-</blockquote>
-<h3 id="第三章-最好的，总在不经意间出现"><a href="#第三章-最好的，总在不经意间出现" class="headerlink" title="第三章 最好的，总在不经意间出现"></a>第三章 最好的，总在不经意间出现</h3><blockquote>
-<p>那些散发不出光亮的天赋，往往会在人们冷淡的态度中，渐渐萎靡，最后退出人们的视线。这是上帝对每个人的考验，如果能够经得起这样的考验，你的天赋便可以发出耀眼的光芒。</p>
-</blockquote>
-<h3 id="第四章-每个阶段都是最好的时光"><a href="#第四章-每个阶段都是最好的时光" class="headerlink" title="第四章 每个阶段都是最好的时光"></a>第四章 每个阶段都是最好的时光</h3><p>把握当下，留住当下。</p>
-<blockquote>
-<p>现在就是最好的时光。</p>
-</blockquote>
-<blockquote>
-<p>生活的本质就在于体验，在于全身心地去感受现下的生活，而每一个现下都应该是最好的时光。</p>
-</blockquote>
-<h3 id="第六章-做自己喜欢的事，获得与岁月对抗的力量"><a href="#第六章-做自己喜欢的事，获得与岁月对抗的力量" class="headerlink" title="第六章 做自己喜欢的事，获得与岁月对抗的力量"></a>第六章 做自己喜欢的事，获得与岁月对抗的力量</h3><blockquote>
-<p>人生最大的幸福， 就是做自己喜欢的事， 爱自己喜欢的人</p>
-</blockquote>
-<blockquote>
-<p>人的一生，匆匆而过，就如白驹过隙。孩童时期，想象着自己身后有一双可以飞向四处的翅膀，可没有几年时光的打磨，我们就已经被生活和外界扑面而来的压力击垮，在毫无防备的时候被卷入了生存的洪流，苦苦挣扎。为了摆脱困境，获得新生，我们所能做的就是找到自己喜欢的一件事情，来获得和岁月抗衡的力量。</p>
-</blockquote>
-<h3 id="第八章-一直走下去，全世界都会为你让路"><a href="#第八章-一直走下去，全世界都会为你让路" class="headerlink" title="第八章 一直走下去，全世界都会为你让路"></a>第八章 一直走下去，全世界都会为你让路</h3><blockquote>
-<p>比困难更加可怕的是，我们相信了自己手中正在从事的工作是毫无意义的，我们相信了自己所热爱的事物是没有任何希望的。</p>
-</blockquote>
-<blockquote>
-<p>可是这又有什么关系呢？总不能因为周围人的不认可，而放弃了对喜好的坚持，否则这就是一种不公平，一种对自身和喜好的不公平。</p>
-</blockquote>
-<blockquote>
-<p>对于你的坚持和努力，生活或许暂时迷了眼睛，但你要相信，终有一天，它会沿着你坚持的脚步而来，并且停留在你面前，拥抱你。</p>
-</blockquote>
-<blockquote>
-<p>人生就是一条弯曲的山间小道。驻留在底部的人，看到的永远是紧贴着地面的山脚，还有那仰高脖子都寻不到边际的顶头；站在中间的人，他们比底部的人好上一些，抬起头，或许可以看到半山腰的风景，也可以看到山顶隐隐约约的郁郁葱葱。只是，他们叫喊着苦累，便循着来时的路，下山去了；最后，极少数的人坚持到了山顶，他们看到的是伸手可触的白云，是从未见到过的蓝天，是穿越云层之后的伟岸。这个时候，山顶的人们才发现，当你将一件事情走到底的时候，世界甚至都变得渺小起来。</p>
-</blockquote>
-<blockquote>
-<p>摩西奶奶说：生活是我们自己创造的，如果一直坚持地走下去，终会结出丰硕的果实。</p>
-</blockquote>
-<blockquote>
-<p>太阳落了会升起，花朵败了会重开，而你的梦想，如果不在了，就永远地不在了。</p>
-</blockquote>
-<blockquote>
-<p>当你的手心里带着坚定的意念时，你就已经看到了未来。</p>
-</blockquote>
-<h3 id="第九章-人生的美好在于不设限"><a href="#第九章-人生的美好在于不设限" class="headerlink" title="第九章 人生的美好在于不设限"></a>第九章 人生的美好在于不设限</h3><blockquote>
-<p>不要给自己的人生设限，免得阻挡了你的阳光。</p>
-</blockquote>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -2927,7 +2903,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">167</span>
+          <span class="site-state-item-count">168</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -2940,7 +2916,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">61</span>
+        <span class="site-state-item-count">62</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
