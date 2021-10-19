@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"richfan.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"richfan.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
@@ -105,6 +105,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -139,11 +140,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -424,84 +452,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/06/04/2019-06-04-article/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Ariana">
-      <meta itemprop="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ArianaのAcademia">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/06/04/2019-06-04-article/" class="post-title-link" itemprop="url">sports</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2019-06-04 00:00:00" itemprop="dateCreated datePublished" datetime="2019-06-04T00:00:00+08:00">2019-06-04</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-29 13:12:07" itemprop="dateModified" datetime="2021-09-29T13:12:07+08:00">2021-09-29</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/" itemprop="url" rel="index"><span itemprop="name">妞妞原创</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Some people believe that famous sports people are paid too much money, wheras others think famous sports people are not paid too much money. I personally believe famous people are not paid too much money.</p>
-<p>Firstly, famous sports people provide us with huge entertainment. We will always cheer them on in front of the TV screen, and we will hoot and hollar. All of this are their doing to make us excited.</p>
-<p>Secondly, famous sports people work very hard. They will train for years and years just for a prize at a competition. We can use a frase to describe them. “For one minute on stage, for ten years to train under stage.” So they are living a hard life.</p>
-<p>And moreover, the famous sports people can teach us things we need to know in our lifetime, such as “No pains no gains”.</p>
-<p>To sum up, famous sports people are not paid to much money.</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/06/04/2019-06-04-letter/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -584,7 +534,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/06/04/2019-06-04-public/">
+    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/06/04/2019-06-04-article/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -598,7 +548,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2019/06/04/2019-06-04-public/" class="post-title-link" itemprop="url">Public</a>
+            <a href="/2019/06/04/2019-06-04-article/" class="post-title-link" itemprop="url">sports</a>
         </h2>
 
         <div class="post-meta">
@@ -615,7 +565,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-29 13:13:31" itemprop="dateModified" datetime="2021-09-29T13:13:31+08:00">2021-09-29</time>
+                <time title="修改时间：2021-09-29 13:12:07" itemprop="dateModified" datetime="2021-09-29T13:12:07+08:00">2021-09-29</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -638,10 +588,11 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Many people say that the private lives of famous people should be made public, however others say the private lives of famous people should not be made public and I personally agree with this opinion.</p>
-<p>Firstly, I couldn’t hide the fact that the public have great interest in famous people. They are always asking for an autograph or wanting to take a photo of the famous people they meet. Normal people would think this a honor, but the people who are famous don’t think so, they fell uneasy under this circumstance. The same with their private lives.</p>
-<p>Secondly, famous people are role models for us. Any one would want to be like them, and they want to learn from the famous people. They are like, heros, to us normal people. So they don’t always want to say their real identity.</p>
-<p>To sum up, the private lives of famous people should not be made public, I think.</p>
+          <p>Some people believe that famous sports people are paid too much money, wheras others think famous sports people are not paid too much money. I personally believe famous people are not paid too much money.</p>
+<p>Firstly, famous sports people provide us with huge entertainment. We will always cheer them on in front of the TV screen, and we will hoot and hollar. All of this are their doing to make us excited.</p>
+<p>Secondly, famous sports people work very hard. They will train for years and years just for a prize at a competition. We can use a frase to describe them. “For one minute on stage, for ten years to train under stage.” So they are living a hard life.</p>
+<p>And moreover, the famous sports people can teach us things we need to know in our lifetime, such as “No pains no gains”.</p>
+<p>To sum up, famous sports people are not paid to much money.</p>
 
       
     </div>
@@ -718,6 +669,83 @@
           <p>七點五十八，</p>
 <p>商量－－</p>
 <p>八點二十發。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/06/04/2019-06-04-public/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Ariana">
+      <meta itemprop="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ArianaのAcademia">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/06/04/2019-06-04-public/" class="post-title-link" itemprop="url">Public</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-06-04 00:00:00" itemprop="dateCreated datePublished" datetime="2019-06-04T00:00:00+08:00">2019-06-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-09-29 13:13:31" itemprop="dateModified" datetime="2021-09-29T13:13:31+08:00">2021-09-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/" itemprop="url" rel="index"><span itemprop="name">妞妞原创</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>Many people say that the private lives of famous people should be made public, however others say the private lives of famous people should not be made public and I personally agree with this opinion.</p>
+<p>Firstly, I couldn’t hide the fact that the public have great interest in famous people. They are always asking for an autograph or wanting to take a photo of the famous people they meet. Normal people would think this a honor, but the people who are famous don’t think so, they fell uneasy under this circumstance. The same with their private lives.</p>
+<p>Secondly, famous people are role models for us. Any one would want to be like them, and they want to learn from the famous people. They are like, heros, to us normal people. So they don’t always want to say their real identity.</p>
+<p>To sum up, the private lives of famous people should not be made public, I think.</p>
 
       
     </div>
@@ -1138,6 +1166,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

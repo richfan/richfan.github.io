@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"richfan.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"richfan.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
@@ -105,6 +105,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -139,11 +140,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -850,85 +878,6 @@ B---C[7];</pre>
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/07/18/2019-07-07-yht/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Ariana">
-      <meta itemprop="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ArianaのAcademia">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/07/18/2019-07-07-yht/" class="post-title-link" itemprop="url">参观雨花台有感</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2019-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2019-07-18T00:00:00+08:00">2019-07-18</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-29 14:27:54" itemprop="dateModified" datetime="2021-09-29T14:27:54+08:00">2021-09-29</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/" itemprop="url" rel="index"><span itemprop="name">妞妞原创</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>2019.7.7</p>
-<h2 id="参观雨花台有感"><a href="#参观雨花台有感" class="headerlink" title="参观雨花台有感"></a>参观雨花台有感</h2><p>“人生自古谁无死，留取丹心照汗青。”这句诗是远在南宋时期的诗人文天祥创作的，他落到敌人手里后宁死不屈，写下了这千古名句。现在，我们的身边有没有像他一样牺牲个体以换取国家安定的人呢？今天，我们正气之星战队的成员怀着崇敬的心情来到了雨花台，瞻仰像文天祥一样的革命先烈们。</p>
-<p>刚进北大门，我们就看见了高达11米的雕塑，上面雕刻着9个人。虽然他们职业不同，相貌不同，但每一个人脸上都露出视死如归的坚定表情，为崇高的共产主义理想与信念而捐躯。我们肃立在他们面前，开始用清脆而响亮的声音朗诵：“万民拾级雨花台，萧默追思仰俊才……”</p>
-<p>爬上台阶，到达了顶端后，高达23.4米的烈士纪念碑就矗立在了我们面前。碑前立了一位革命者的雕塑。“我们革命者失去的只是锁链，而得到的是整个世界！”碑的正面写着“雨花台烈士纪念碑”八个金光闪闪的大字。庄严的音乐响起，我们绕着雄伟的烈士纪念碑走了一圈。</p>
-<p>接下来，我们走到了革命烈士纪念馆。这里详细呈现了先烈们的感人事迹。很多人都是年纪轻轻就被押送到南京，随后被敌人给杀害了。在牺牲之前，他们即使受到了严刑拷打、持续的非人折磨，依旧没有改变自己的初衷。邓中夏更是说：“就是烧成灰，我也是共产党员！”信仰的力量是多么强大！我们要学习革命烈士那样坚贞不屈、百折不挠的精神！</p>
-<p>要离开雨花台了。在阳光的照耀下，我望向远方，“信仰”、“不忘初心”、“牢记使命”这三个词在阳光里显得更加美丽。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/07/18/2019-07-18-siji/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1001,6 +950,85 @@ B---C[7];</pre>
 <p>白雪纷飞，盖住了一切。树变白了，草变白了，小池塘也变成了一片明镜，小桥又重新盖上了一层薄薄的白被。万物都睡了。下雪天，同学们开始堆雪人，打雪仗，不亦乐乎！</p>
 <p>我们在白色世界里盼望着来年。</p>
 <p>永远不会忘记这一段优美动听的旋律。它会一直在我耳边萦绕！</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://richfan.github.io/2019/07/18/2019-07-07-yht/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Ariana">
+      <meta itemprop="description" content="大气磅礴，气象万千；梵我同一，法相庄严。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ArianaのAcademia">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/07/18/2019-07-07-yht/" class="post-title-link" itemprop="url">参观雨花台有感</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2019-07-18T00:00:00+08:00">2019-07-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-09-29 14:27:54" itemprop="dateModified" datetime="2021-09-29T14:27:54+08:00">2021-09-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%A6%9E%E5%A6%9E%E5%8E%9F%E5%88%9B/" itemprop="url" rel="index"><span itemprop="name">妞妞原创</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>2019.7.7</p>
+<h2 id="参观雨花台有感"><a href="#参观雨花台有感" class="headerlink" title="参观雨花台有感"></a>参观雨花台有感</h2><p>“人生自古谁无死，留取丹心照汗青。”这句诗是远在南宋时期的诗人文天祥创作的，他落到敌人手里后宁死不屈，写下了这千古名句。现在，我们的身边有没有像他一样牺牲个体以换取国家安定的人呢？今天，我们正气之星战队的成员怀着崇敬的心情来到了雨花台，瞻仰像文天祥一样的革命先烈们。</p>
+<p>刚进北大门，我们就看见了高达11米的雕塑，上面雕刻着9个人。虽然他们职业不同，相貌不同，但每一个人脸上都露出视死如归的坚定表情，为崇高的共产主义理想与信念而捐躯。我们肃立在他们面前，开始用清脆而响亮的声音朗诵：“万民拾级雨花台，萧默追思仰俊才……”</p>
+<p>爬上台阶，到达了顶端后，高达23.4米的烈士纪念碑就矗立在了我们面前。碑前立了一位革命者的雕塑。“我们革命者失去的只是锁链，而得到的是整个世界！”碑的正面写着“雨花台烈士纪念碑”八个金光闪闪的大字。庄严的音乐响起，我们绕着雄伟的烈士纪念碑走了一圈。</p>
+<p>接下来，我们走到了革命烈士纪念馆。这里详细呈现了先烈们的感人事迹。很多人都是年纪轻轻就被押送到南京，随后被敌人给杀害了。在牺牲之前，他们即使受到了严刑拷打、持续的非人折磨，依旧没有改变自己的初衷。邓中夏更是说：“就是烧成灰，我也是共产党员！”信仰的力量是多么强大！我们要学习革命烈士那样坚贞不屈、百折不挠的精神！</p>
+<p>要离开雨花台了。在阳光的照耀下，我望向远方，“信仰”、“不忘初心”、“牢记使命”这三个词在阳光里显得更加美丽。</p>
 
       
     </div>
@@ -1500,6 +1528,10 @@ H-->I(10890);</pre>
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
